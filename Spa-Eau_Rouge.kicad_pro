@@ -239,7 +239,8 @@
     "pinned_symbol_libs": [
       "Resistors",
       "Capacitors_MLCC",
-      "Connector"
+      "Connector",
+      "Inductors"
     ]
   },
   "meta": {
