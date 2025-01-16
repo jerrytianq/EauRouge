@@ -1,4 +1,4 @@
-23765991561980438
+23772939283811351
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -2680,6 +2680,13 @@ Gauge Massstab 100mm SilkScreenTop Type 2
 0
 0
 0
+Capacitor_SMD
+865080642006
+SMD capacitor, aluminum electrolytic
+capacitor electrolytic
+0
+2
+2
 Capacitor_SMD
 CP_Elec_3x5.3
 SMT capacitor, aluminium electrolytic, 3x5.3, Cornell Dubilier Electronics 
@@ -59374,6 +59381,13 @@ ACM2520 common-mode filter 6 pin
 6
 6
 Inductor_SMD
+L_CommonModeChoke_TDK_ACM4520-421-2P-T000
+TDK ACM4520 common-mode filter, SMD
+ACM4520 common-mode filter 4 pin
+0
+4
+4
+Inductor_SMD
 L_CommonModeChoke_TDK_ACM7060
 ACM7060 SMT Common Mode Filter, https://product.tdk.com/system/files/dam/doc/product/emc/emc/cmf_cmc/catalog/cmf_commercial_power_acm7060_en.pdf
 SMT Common Mode Line Filter
@@ -60832,6 +60846,13 @@ inductor taiyo-yuden nr smd
 Inductor_SMD
 L_Taiyo-Yuden_NR-10050_9.8x10.0mm_HandSoldering
 Inductor, Taiyo Yuden, NR series, Taiyo-Yuden_NR-10050, 9.8mmx10.0mm, https://ds.yuden.co.jp/TYCOMPAS/or/specSheet?pn=NR10050T1R3N
+inductor taiyo-yuden nr smd
+0
+2
+2
+Inductor_SMD
+L_Taiyo-Yuden_NRS5030T4R7MMGJV
+Inductor, Taiyo Yuden, NR series, Taiyo-Yuden_NR-50xx, 4.9mmx4.9mm
 inductor taiyo-yuden nr smd
 0
 2
@@ -82195,6 +82216,13 @@ SOT TO_SOT_SMD
 6
 Package_TO_SOT_SMD
 SOT-23-6_Handsoldering
+6-pin SOT-23 package, Handsoldering
+SOT-23-6 Handsoldering
+0
+6
+6
+Package_TO_SOT_SMD
+SOT-23-6_LMR51420YDDCR
 6-pin SOT-23 package, Handsoldering
 SOT-23-6 Handsoldering
 0

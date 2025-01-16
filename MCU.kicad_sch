@@ -1340,6 +1340,15 @@
 					(justify left)
 				)
 			)
+			(property "ki_keywords" "jumper"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(symbol "RC0805JR-070RL_0_1"
 				(polyline
 					(pts
@@ -1569,6 +1578,15 @@
 						(size 1.27 1.27)
 					)
 					(justify left)
+				)
+			)
+			(property "ki_keywords" "4.7k"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
 				)
 			)
 			(symbol "RMCF0805JT4K70_0_1"
