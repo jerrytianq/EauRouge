@@ -1,4 +1,4 @@
-23772939283811351
+23778198297560335
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -55062,6 +55062,13 @@ D_SOD-123F
 2
 2
 Diode_SMD
+D_SOD-123F_STPS2H100ZF
+D_SOD-123F
+D_SOD-123F
+0
+2
+2
+Diode_SMD
 D_SOD-128
 D_SOD-128 (CFP5 SlimSMAW), https://assets.nexperia.com/documents/outline-drawing/SOD128.pdf
 D_SOD-128
@@ -82182,6 +82189,20 @@ SOT TO_SOT_SMD
 Package_TO_SOT_SMD
 SOT-23-3
 SOT, 3 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178D.PDF inferred 3-pin variant), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOT TO_SOT_SMD
+0
+3
+3
+Package_TO_SOT_SMD
+SOT-23-3_DMN3731U-7
+SOT, 3 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178D.PDF inferred 3-pin variant), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOT TO_SOT_SMD
+0
+3
+3
+Package_TO_SOT_SMD
+SOT-23-3_NTR5198NLT1G
+SOT, 3 Pin
 SOT TO_SOT_SMD
 0
 3

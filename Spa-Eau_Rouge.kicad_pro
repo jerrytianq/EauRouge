@@ -433,7 +433,8 @@
       "Capacitors_MLCC",
       "Connector",
       "Inductors",
-      "Capacitor_Polarized"
+      "Capacitor_Polarized",
+      "Regulator_Linear"
     ]
   },
   "meta": {
@@ -592,6 +593,10 @@
     [
       "6d04b95b-928b-4f0a-aacf-bdd53dce8845",
       "Power"
+    ],
+    [
+      "09553296-4412-4340-b738-04baff363726",
+      "Solenoid Driver"
     ]
   ],
   "text_variables": {}
