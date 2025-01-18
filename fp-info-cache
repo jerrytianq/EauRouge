@@ -1,4 +1,4 @@
-23778198297560335
+23783410302225236
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -54971,6 +54971,13 @@ Diode Universal SMA (DO-214AC) SMB (DO-214AA) Handsoldering
 2
 2
 Diode_SMD
+D_SMAJ26A-13-F
+Diode SMA (DO-214AC) Handsoldering
+Diode SMA (DO-214AC) Handsoldering
+0
+2
+2
+Diode_SMD
 D_SMA_Handsoldering
 Diode SMA (DO-214AC) Handsoldering
 Diode SMA (DO-214AC) Handsoldering
@@ -82362,6 +82369,13 @@ CMS SOT
 4
 3
 Package_TO_SOT_SMD
+SOT-223-3_TabPin2_LM317MDCYR
+module CMS SOT223 4 pins
+CMS SOT
+0
+4
+3
+Package_TO_SOT_SMD
 SOT-223-5
 module CMS SOT223 5 pins, http://ww1.microchip.com/downloads/en/DeviceDoc/51751a.pdf
 CMS SOT
@@ -92032,6 +92046,13 @@ TerminalBlock_Phoenix
 TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal
 Terminal Block Phoenix MKDS-1,5-2-5.08, 2 pins, pitch 5.08mm, size 10.2x9.8mm^2, drill diamater 1.3mm, pad diameter 2.6mm, see http://www.farnell.com/datasheets/100425.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_Phoenix
 THT Terminal Block Phoenix MKDS-1,5-2-5.08 pitch 5.08mm size 10.2x9.8mm^2 drill 1.3mm pad 2.6mm
+0
+2
+2
+TerminalBlock_Phoenix
+TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P3.50mm_Horizontal_1985807
+Terminal Block Phoenix MKDS-1,5-2, 2 pins, pitch 3.5mm
+THT Terminal Block Phoenix MKDS-1,5-2 pitch 3.5mm
 0
 2
 2

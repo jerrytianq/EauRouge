@@ -699,7 +699,7 @@
 				)
 			)
 		)
-		(symbol "Diode:D24V0S1U2TQ-7"
+		(symbol "Diode:SMAJ26A-13-F"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016) hide)
@@ -714,7 +714,7 @@
 					)
 				)
 			)
-			(property "Value" "D24V0S1U2TQ-7"
+			(property "Value" "SMAJ26A-13-F"
 				(at -1.27 -32.258 0)
 				(effects
 					(font
@@ -723,7 +723,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "Diode_SMD:D_SOD-523"
+			(property "Footprint" "Diode_SMD:D_SMAJ26A-13-F"
 				(at -2.54 -24.384 0)
 				(effects
 					(font
@@ -741,7 +741,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "TVS DIODE 24VWM 36VC SOD523"
+			(property "Description" "TVS DIODE 26VWM 42.1VC SMA"
 				(at -1.524 -14.986 0)
 				(effects
 					(font
@@ -750,13 +750,14 @@
 					(hide yes)
 				)
 			)
-			(property "Type" "TVS"
-				(at -2.032 -4.064 0)
+			(property "Type" "Zener"
+				(at 11.176 -17.272 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left)
+					(hide yes)
 				)
 			)
 			(property "Unidirectional Channels " "1"
@@ -768,7 +769,7 @@
 					(hide yes)
 				)
 			)
-			(property "Voltage - Reverse Standoff (Typ) " "24VWM"
+			(property "Voltage - Reverse Standoff (Typ) " "26VWM"
 				(at -2.032 -6.604 0)
 				(effects
 					(font
@@ -777,7 +778,7 @@
 					(justify left)
 				)
 			)
-			(property "Voltage - Breakdown (Min) " "27VBR"
+			(property "Voltage - Breakdown (Min) " "28.9VBR"
 				(at -2.032 -9.144 0)
 				(effects
 					(font
@@ -786,7 +787,7 @@
 					(justify left)
 				)
 			)
-			(property "Voltage - Clamping (Max) @ Ipp " "36VC"
+			(property "Voltage - Clamping (Max) @ Ipp " "42.1VC"
 				(at -2.032 -11.684 0)
 				(effects
 					(font
@@ -795,17 +796,8 @@
 					(justify left)
 				)
 			)
-			(property "Current - Peak Pulse (10/1000µs) " "6A (8/20µs)"
+			(property "Current - Peak Pulse (10/1000µs) " "9.5A"
 				(at 3.048 -17.272 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Capacitance @ Frequency" "35pF @ 1MHz"
-				(at -0.254 -28.194 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -822,6 +814,14 @@
 					(hide yes)
 				)
 			)
+			(property "Function" "TVS"
+				(at -0.254 -4.318 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "ki_keywords" "diode zener TVS"
 				(at 0 0 0)
 				(effects
@@ -831,7 +831,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "D24V0S1U2TQ-7_0_1"
+			(symbol "SMAJ26A-13-F_0_1"
 				(polyline
 					(pts
 						(xy -1.27 0) (xy 1.27 0)
@@ -881,7 +881,7 @@
 					)
 				)
 			)
-			(symbol "D24V0S1U2TQ-7_1_1"
+			(symbol "SMAJ26A-13-F_1_1"
 				(pin passive line
 					(at 3.81 0 180)
 					(length 2.54)
@@ -1677,7 +1677,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2_LM317MDCYR"
 				(at 1.778 -18.288 0)
 				(effects
 					(font
@@ -3386,46 +3386,6 @@
 					(hide yes)
 				)
 			)
-			(property "PARTREV" "V.12"
-				(at 8.89 -24.13 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "STANDARD" "IPC 7351B"
-				(at 0.508 -24.13 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "0.6 mm"
-				(at -9.398 -24.13 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "Panasonic Electronic Components"
-				(at 0.254 -17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
 			(property "Resistance" "15kΩ"
 				(at 2.54 2.032 0)
 				(effects
@@ -4476,6 +4436,12 @@
 		(uuid "12ed3844-b3f8-4ad7-bd00-6a85472c3963")
 	)
 	(junction
+		(at 77.47 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1d5610e5-c84d-4b2c-ac85-d322f21469d0")
+	)
+	(junction
 		(at 140.97 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4584,12 +4550,6 @@
 		(uuid "d0d2bee0-d4df-47c6-b0a8-b42fed5df632")
 	)
 	(junction
-		(at 80.01 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dd0e5952-58e4-4668-ac29-98b428cd599d")
-	)
-	(junction
 		(at 198.12 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4615,7 +4575,17 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 161.29) (xy 132.08 168.91)
+			(xy 132.08 87.63) (xy 139.7 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "008f9d33-a9da-41d1-ab91-619066acfd6c")
+	)
+	(wire
+		(pts
+			(xy 132.08 165.1) (xy 132.08 168.91)
 		)
 		(stroke
 			(width 0)
@@ -4865,7 +4835,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 33.02) (xy 80.01 39.37)
+			(xy 77.47 33.02) (xy 77.47 39.37)
 		)
 		(stroke
 			(width 0)
@@ -4945,13 +4915,13 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 33.02) (xy 95.25 33.02)
+			(xy 77.47 33.02) (xy 95.25 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "623cf820-0088-4158-b4cc-f6fc416c4730")
+		(uuid "602f7fce-681d-4778-916b-a05b5d40c3ef")
 	)
 	(wire
 		(pts
@@ -4965,7 +4935,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 146.05) (xy 132.08 153.67)
+			(xy 132.08 146.05) (xy 132.08 157.48)
 		)
 		(stroke
 			(width 0)
@@ -4985,7 +4955,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 87.63) (xy 170.18 87.63)
+			(xy 163.83 87.63) (xy 170.18 87.63)
 		)
 		(stroke
 			(width 0)
@@ -5075,7 +5045,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 41.91) (xy 146.05 46.99)
+			(xy 146.05 41.91) (xy 146.05 50.8)
 		)
 		(stroke
 			(width 0)
@@ -5135,7 +5105,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 113.03) (xy 241.3 109.22)
+			(xy 241.3 116.84) (xy 241.3 115.57)
 		)
 		(stroke
 			(width 0)
@@ -5235,7 +5205,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 46.99) (xy 80.01 49.53)
+			(xy 77.47 46.99) (xy 77.47 49.53)
 		)
 		(stroke
 			(width 0)
@@ -5262,16 +5232,6 @@
 			(type default)
 		)
 		(uuid "a1dc69bb-8f55-4408-a26b-03455e211466")
-	)
-	(wire
-		(pts
-			(xy 241.3 96.52) (xy 241.3 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a55fb682-9da1-4fcc-8ec5-49fd434f438f")
 	)
 	(wire
 		(pts
@@ -5325,7 +5285,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 33.02) (xy 80.01 33.02)
+			(xy 72.39 33.02) (xy 77.47 33.02)
 		)
 		(stroke
 			(width 0)
@@ -5385,6 +5345,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 96.52) (xy 241.3 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c61d8605-7de3-4657-a651-51995cdc95d1")
+	)
+	(wire
+		(pts
 			(xy 76.2 82.55) (xy 88.9 82.55)
 		)
 		(stroke
@@ -5392,16 +5362,6 @@
 			(type default)
 		)
 		(uuid "c6a6d233-75f7-496c-a6c9-47f97ae87e11")
-	)
-	(wire
-		(pts
-			(xy 139.7 87.63) (xy 132.08 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c77044b9-c41b-4955-a77b-696869562451")
 	)
 	(wire
 		(pts
@@ -5505,7 +5465,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 57.15) (xy 146.05 54.61)
+			(xy 146.05 60.96) (xy 146.05 58.42)
 		)
 		(stroke
 			(width 0)
@@ -5515,7 +5475,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 87.63) (xy 153.67 87.63)
+			(xy 139.7 87.63) (xy 156.21 87.63)
 		)
 		(stroke
 			(width 0)
@@ -5643,6 +5603,94 @@
 		)
 		(uuid "ad1a3510-3bd2-41d0-a6fc-d5bbbf15dc45")
 	)
+	(label "EN"
+		(at 102.87 87.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "134a94cf-d88a-4242-b7ea-37533d5f9920")
+	)
+	(label "BOOT"
+		(at 134.62 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2ba47cfb-640b-4bfb-8b3b-98709975329a")
+	)
+	(label "ADJ"
+		(at 91.44 140.97 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5cb1ea85-0638-4463-a66e-ae463dfcc566")
+	)
+	(label "SW"
+		(at 134.62 87.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7b27b99b-3315-428c-84e9-653aa6606027")
+	)
+	(label "12V_LED_K"
+		(at 132.08 152.4 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9e913c4d-e994-45a7-aec8-702fb811b6dd")
+	)
+	(label "FB"
+		(at 134.62 92.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ba8cef5e-9a72-4ea4-8f24-9d67d18c75c0")
+	)
+	(label "VIN_LED_K"
+		(at 146.05 46.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d4460e2e-1400-4832-94a5-c81fc303ebcb")
+	)
+	(label "5V_LED_K"
+		(at 241.3 102.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e977265d-ed4c-41df-8174-e8d89cfab389")
+	)
 	(hierarchical_label "12V"
 		(shape output)
 		(at 144.78 137.16 0)
@@ -5689,7 +5737,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "07590780-ca9d-449b-b252-052da4bff55b")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR030"
 			(at 107.95 55.88 0)
 			(effects
 				(font
@@ -5739,7 +5787,7 @@
 		(instances
 			(project "Spa-Eau_Rouge"
 				(path "/c4971751-18ba-42c0-933f-7e935423e3d9/6d04b95b-928b-4f0a-aacf-bdd53dce8845"
-					(reference "#PWR034")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -5755,7 +5803,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ca7a660-9c89-4476-bfc0-eaebaaa14760")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR041"
 			(at 212.09 109.22 0)
 			(effects
 				(font
@@ -5805,7 +5853,7 @@
 		(instances
 			(project "Spa-Eau_Rouge"
 				(path "/c4971751-18ba-42c0-933f-7e935423e3d9/6d04b95b-928b-4f0a-aacf-bdd53dce8845"
-					(reference "#PWR031")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -5821,7 +5869,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "12cb9676-e089-4144-85d2-a31864bb109c")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR044"
 			(at 170.18 123.19 0)
 			(effects
 				(font
@@ -5871,7 +5919,7 @@
 		(instances
 			(project "Spa-Eau_Rouge"
 				(path "/c4971751-18ba-42c0-933f-7e935423e3d9/6d04b95b-928b-4f0a-aacf-bdd53dce8845"
-					(reference "#PWR028")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -5986,7 +6034,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 146.05 57.15 0)
+		(at 146.05 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5994,8 +6042,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c0c9492-1655-4575-b23f-0d4564147b8c")
-		(property "Reference" "#PWR040"
-			(at 146.05 63.5 0)
+		(property "Reference" "#PWR032"
+			(at 146.05 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6004,7 +6052,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 146.05 62.23 0)
+			(at 146.05 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6012,7 +6060,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 146.05 57.15 0)
+			(at 146.05 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6021,7 +6069,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 57.15 0)
+			(at 146.05 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6030,7 +6078,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 146.05 57.15 0)
+			(at 146.05 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6044,7 +6092,7 @@
 		(instances
 			(project "Spa-Eau_Rouge"
 				(path "/c4971751-18ba-42c0-933f-7e935423e3d9/6d04b95b-928b-4f0a-aacf-bdd53dce8845"
-					(reference "#PWR040")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -6059,7 +6107,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "20ec1a5e-658d-4885-b7e4-d1d99dea6c76")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR045"
 			(at 49.53 135.89 0)
 			(effects
 				(font
@@ -6109,7 +6157,7 @@
 		(instances
 			(project "Spa-Eau_Rouge"
 				(path "/c4971751-18ba-42c0-933f-7e935423e3d9/6d04b95b-928b-4f0a-aacf-bdd53dce8845"
-					(reference "#PWR044")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -6125,7 +6173,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "27542dd7-71c8-4b5e-b377-395a9725cc7c")
-		(property "Reference" "C12"
+		(property "Reference" "C13"
 			(at 229.87 90.1699 0)
 			(effects
 				(font
@@ -6216,7 +6264,7 @@
 		(instances
 			(project "Spa-Eau_Rouge"
 				(path "/c4971751-18ba-42c0-933f-7e935423e3d9/6d04b95b-928b-4f0a-aacf-bdd53dce8845"
-					(reference "C12")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -6231,7 +6279,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2df91cc7-9fb3-4138-9545-fe021a6f7d4f")
-		(property "Reference" "D2"
+		(property "Reference" "D1"
 			(at 149.86 37.1474 90)
 			(effects
 				(font
@@ -6303,7 +6351,7 @@
 		(instances
 			(project ""
 				(path "/c4971751-18ba-42c0-933f-7e935423e3d9/6d04b95b-928b-4f0a-aacf-bdd53dce8845"
-					(reference "D2")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -6319,7 +6367,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "360b0153-d77f-4dc4-97de-9c6930fdd48f")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR048"
 			(at 62.23 160.02 0)
 			(effects
 				(font
@@ -6369,7 +6417,7 @@
 		(instances
 			(project "Spa-Eau_Rouge"
 				(path "/c4971751-18ba-42c0-933f-7e935423e3d9/6d04b95b-928b-4f0a-aacf-bdd53dce8845"
-					(reference "#PWR043")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -6385,7 +6433,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3af312de-a89c-4560-a6e5-32ef6ad1eb1f")
-		(property "Reference" "R7"
+		(property "Reference" "R9"
 			(at 172.72 90.1699 0)
 			(effects
 				(font
@@ -6517,7 +6565,7 @@
 		(instances
 			(project ""
 				(path "/c4971751-18ba-42c0-933f-7e935423e3d9/6d04b95b-928b-4f0a-aacf-bdd53dce8845"
-					(reference "R7")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -6533,7 +6581,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b8d2039-ace2-4ced-a3d9-77362852f29e")
-		(property "Reference" "D5"
+		(property "Reference" "D4"
 			(at 135.89 141.2874 90)
 			(effects
 				(font
@@ -6605,7 +6653,150 @@
 		(instances
 			(project "Spa-Eau_Rouge"
 				(path "/c4971751-18ba-42c0-933f-7e935423e3d9/6d04b95b-928b-4f0a-aacf-bdd53dce8845"
-					(reference "D5")
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SMAJ26A-13-F")
+		(at 77.47 43.18 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4cb791ff-17cb-4391-b237-0aa473f29a5d")
+		(property "Reference" "D2"
+			(at 81.28 37.4649 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SMAJ26A-13-F"
+			(at 109.728 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMAJ26A-13-F"
+			(at 101.854 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.614 44.196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "TVS DIODE 26VWM 42.1VC SMA"
+			(at 92.456 44.704 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "Zener"
+			(at 94.742 32.004 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Unidirectional Channels " "1"
+			(at 112.776 41.656 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage - Reverse Standoff (Typ) " "26VWM"
+			(at 81.28 40.0049 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Voltage - Breakdown (Min) " "28.9VBR"
+			(at 81.28 42.5449 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Voltage - Clamping (Max) @ Ipp " "42.1VC"
+			(at 81.28 45.0849 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Current - Peak Pulse (10/1000µs) " "9.5A"
+			(at 94.742 40.132 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer " "Diodes Incorporated"
+			(at 97.79 45.974 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Function" "TVS"
+			(at 81.28 47.6249 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "2"
+			(uuid "19ad8f3e-4e14-4cad-828a-f53a49e8bad7")
+		)
+		(pin "1"
+			(uuid "9c6b3397-ee3e-4cd8-bade-59965b63c279")
+		)
+		(instances
+			(project ""
+				(path "/c4971751-18ba-42c0-933f-7e935423e3d9/6d04b95b-928b-4f0a-aacf-bdd53dce8845"
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -6621,7 +6812,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "572ba13a-aa66-492f-8492-63554a97920e")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR039"
 			(at 184.15 109.22 0)
 			(effects
 				(font
@@ -6671,7 +6862,7 @@
 		(instances
 			(project "Spa-Eau_Rouge"
 				(path "/c4971751-18ba-42c0-933f-7e935423e3d9/6d04b95b-928b-4f0a-aacf-bdd53dce8845"
-					(reference "#PWR029")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -6685,7 +6876,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "596fdc4b-37d7-4707-accf-435fa33ceeae")
 		(property "Reference" "FL1"
 			(at 100.33 22.86 0)
@@ -6732,7 +6922,7 @@
 			)
 		)
 		(property "Current Rating" "2.8A"
-			(at 100.33 25.4 0)
+			(at 100.33 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6740,7 +6930,7 @@
 			)
 		)
 		(property "Impedance @ Frequency" "420Ω @ 100MHz"
-			(at 100.33 27.94 0)
+			(at 100.33 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6787,7 +6977,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 241.3 113.03 0)
+		(at 241.3 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6795,8 +6985,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "68a3f6ba-b51b-4507-a140-d93deb6121f5")
-		(property "Reference" "#PWR041"
-			(at 241.3 119.38 0)
+		(property "Reference" "#PWR043"
+			(at 241.3 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6805,7 +6995,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 241.3 118.11 0)
+			(at 241.3 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6813,7 +7003,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 241.3 113.03 0)
+			(at 241.3 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6822,7 +7012,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 241.3 113.03 0)
+			(at 241.3 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6831,7 +7021,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 241.3 113.03 0)
+			(at 241.3 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6845,7 +7035,7 @@
 		(instances
 			(project "Spa-Eau_Rouge"
 				(path "/c4971751-18ba-42c0-933f-7e935423e3d9/6d04b95b-928b-4f0a-aacf-bdd53dce8845"
-					(reference "#PWR041")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -6861,7 +7051,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6cc38c74-529f-4196-91e6-5c59dba202d2")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR036"
 			(at 63.5 105.41 0)
 			(effects
 				(font
@@ -6911,7 +7101,7 @@
 		(instances
 			(project "Spa-Eau_Rouge"
 				(path "/c4971751-18ba-42c0-933f-7e935423e3d9/6d04b95b-928b-4f0a-aacf-bdd53dce8845"
-					(reference "#PWR026")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -6926,7 +7116,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6d6e5bd6-268d-4828-afe4-b8ef561a4392")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR034"
 			(at 254 87.63 0)
 			(effects
 				(font
@@ -6976,7 +7166,7 @@
 		(instances
 			(project ""
 				(path "/c4971751-18ba-42c0-933f-7e935423e3d9/6d04b95b-928b-4f0a-aacf-bdd53dce8845"
-					(reference "#PWR019")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -6984,7 +7174,7 @@
 	)
 	(symbol
 		(lib_id "power:-BATT")
-		(at 80.01 49.53 180)
+		(at 77.47 49.53 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6992,8 +7182,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e5ce273-aeaa-4499-b1f7-a9f702af35ec")
-		(property "Reference" "#PWR037"
-			(at 80.01 45.72 0)
+		(property "Reference" "#PWR028"
+			(at 77.47 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7002,7 +7192,7 @@
 			)
 		)
 		(property "Value" "-BATT"
-			(at 80.01 54.61 0)
+			(at 77.47 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7010,7 +7200,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 80.01 49.53 0)
+			(at 77.47 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7019,7 +7209,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.01 49.53 0)
+			(at 77.47 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7028,7 +7218,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-BATT\""
-			(at 80.01 49.53 0)
+			(at 77.47 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7042,7 +7232,7 @@
 		(instances
 			(project "Spa-Eau_Rouge"
 				(path "/c4971751-18ba-42c0-933f-7e935423e3d9/6d04b95b-928b-4f0a-aacf-bdd53dce8845"
-					(reference "#PWR037")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -7050,7 +7240,7 @@
 	)
 	(symbol
 		(lib_id "Resistors:RC0805FR-0790R9L")
-		(at 241.3 105.41 0)
+		(at 241.3 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7058,8 +7248,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "74527794-e5e9-4240-9e69-8b762c2efd0d")
-		(property "Reference" "R11"
-			(at 243.84 100.3299 0)
+		(property "Reference" "R10"
+			(at 243.84 106.6799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7068,7 +7258,7 @@
 			)
 		)
 		(property "Value" "RC0805FR-0790R9L"
-			(at 253.238 131.318 0)
+			(at 253.238 137.668 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7078,7 +7268,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 242.316 127 0)
+			(at 242.316 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7088,7 +7278,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 241.3 105.41 90)
+			(at 241.3 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7097,7 +7287,7 @@
 			)
 		)
 		(property "Description" "RES 90.9 OHM 1% 1/8W 0805"
-			(at 242.062 124.206 0)
+			(at 242.062 130.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7106,7 +7296,7 @@
 			)
 		)
 		(property "MANUFACTURER" "YAGEO"
-			(at 241.554 123.19 0)
+			(at 241.554 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7116,7 +7306,7 @@
 			)
 		)
 		(property "Resistance" "90.9Ω"
-			(at 243.84 102.8699 0)
+			(at 243.84 109.2199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7125,7 +7315,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 243.84 105.4099 0)
+			(at 243.84 111.7599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7134,7 +7324,7 @@
 			)
 		)
 		(property "Power" "1/8W"
-			(at 243.84 107.9499 0)
+			(at 243.84 114.2999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7143,7 +7333,7 @@
 			)
 		)
 		(property "Package" "0805"
-			(at 243.84 110.4899 0)
+			(at 243.84 116.8399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7160,7 +7350,7 @@
 		(instances
 			(project ""
 				(path "/c4971751-18ba-42c0-933f-7e935423e3d9/6d04b95b-928b-4f0a-aacf-bdd53dce8845"
-					(reference "R11")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -7176,7 +7366,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "76358a3b-2ebc-4d8e-a12c-cc6d0f9a9926")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR040"
 			(at 198.12 109.22 0)
 			(effects
 				(font
@@ -7226,149 +7416,7 @@
 		(instances
 			(project "Spa-Eau_Rouge"
 				(path "/c4971751-18ba-42c0-933f-7e935423e3d9/6d04b95b-928b-4f0a-aacf-bdd53dce8845"
-					(reference "#PWR030")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:D24V0S1U2TQ-7")
-		(at 80.01 43.18 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "77a4e097-876c-49e3-aefc-175d3a8d3330")
-		(property "Reference" "D1"
-			(at 83.82 37.4649 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D24V0S1U2TQ-7"
-			(at 112.268 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 104.394 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 89.154 44.196 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "TVS DIODE 24VWM 36VC SOD523"
-			(at 94.996 44.704 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "TVS"
-			(at 83.82 40.0049 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Unidirectional Channels " "1"
-			(at 115.316 41.656 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage - Reverse Standoff (Typ) " "24VWM"
-			(at 83.82 42.5449 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Voltage - Breakdown (Min) " "27VBR"
-			(at 83.82 45.0849 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Voltage - Clamping (Max) @ Ipp " "36VC"
-			(at 83.82 47.6249 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Current - Peak Pulse (10/1000µs) " "6A (8/20µs)"
-			(at 97.282 40.132 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Capacitance @ Frequency" "35pF @ 1MHz"
-			(at 108.204 43.434 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer " "Diodes Incorporated"
-			(at 100.33 45.974 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d9bd7eee-88bb-49d4-84f2-dae90b8be6bb")
-		)
-		(pin "2"
-			(uuid "e2c4cdeb-7d60-41a8-abd0-e4ca737ff6f2")
-		)
-		(instances
-			(project ""
-				(path "/c4971751-18ba-42c0-933f-7e935423e3d9/6d04b95b-928b-4f0a-aacf-bdd53dce8845"
-					(reference "D1")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -7384,7 +7432,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a454e42-3bce-4fb9-9619-520da5dd277e")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR037"
 			(at 76.2 105.41 0)
 			(effects
 				(font
@@ -7434,7 +7482,7 @@
 		(instances
 			(project "Spa-Eau_Rouge"
 				(path "/c4971751-18ba-42c0-933f-7e935423e3d9/6d04b95b-928b-4f0a-aacf-bdd53dce8845"
-					(reference "#PWR027")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -7450,7 +7498,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7bc7094e-5a3b-4543-9a4f-bcb9b03f7171")
-		(property "Reference" "C10"
+		(property "Reference" "C11"
 			(at 201.93 90.1699 0)
 			(effects
 				(font
@@ -7541,7 +7589,7 @@
 		(instances
 			(project "Spa-Eau_Rouge"
 				(path "/c4971751-18ba-42c0-933f-7e935423e3d9/6d04b95b-928b-4f0a-aacf-bdd53dce8845"
-					(reference "C10")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -7664,7 +7712,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7fd8a865-ef5e-431d-8179-aaad7862d170")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR031"
 			(at 119.38 55.88 0)
 			(effects
 				(font
@@ -7714,7 +7762,7 @@
 		(instances
 			(project "Spa-Eau_Rouge"
 				(path "/c4971751-18ba-42c0-933f-7e935423e3d9/6d04b95b-928b-4f0a-aacf-bdd53dce8845"
-					(reference "#PWR038")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -7730,7 +7778,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81385d9b-111e-4a1c-a168-0a1ebe0eecab")
-		(property "Reference" "C6"
+		(property "Reference" "C10"
 			(at 187.96 90.1699 0)
 			(effects
 				(font
@@ -7821,7 +7869,7 @@
 		(instances
 			(project ""
 				(path "/c4971751-18ba-42c0-933f-7e935423e3d9/6d04b95b-928b-4f0a-aacf-bdd53dce8845"
-					(reference "C6")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -7837,7 +7885,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "831adae2-ed4d-4336-9efb-00aef4bf9fca")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR029"
 			(at 92.71 45.72 0)
 			(effects
 				(font
@@ -7887,7 +7935,7 @@
 		(instances
 			(project ""
 				(path "/c4971751-18ba-42c0-933f-7e935423e3d9/6d04b95b-928b-4f0a-aacf-bdd53dce8845"
-					(reference "#PWR035")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -7903,7 +7951,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "89962309-922a-4db9-b8d4-ebaca01a5166")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR051"
 			(at 132.08 175.26 0)
 			(effects
 				(font
@@ -7953,7 +8001,7 @@
 		(instances
 			(project "Spa-Eau_Rouge"
 				(path "/c4971751-18ba-42c0-933f-7e935423e3d9/6d04b95b-928b-4f0a-aacf-bdd53dce8845"
-					(reference "#PWR050")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -7969,7 +8017,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "920a6c72-4148-4c0c-b051-405887a7d582")
-		(property "Reference" "C5"
+		(property "Reference" "C6"
 			(at 143.51 74.9299 0)
 			(effects
 				(font
@@ -8060,7 +8108,7 @@
 		(instances
 			(project ""
 				(path "/c4971751-18ba-42c0-933f-7e935423e3d9/6d04b95b-928b-4f0a-aacf-bdd53dce8845"
-					(reference "C5")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -8206,7 +8254,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a2d67281-6860-40a3-b684-f590afcaff26")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR035"
 			(at 49.53 105.41 0)
 			(effects
 				(font
@@ -8256,7 +8304,7 @@
 		(instances
 			(project ""
 				(path "/c4971751-18ba-42c0-933f-7e935423e3d9/6d04b95b-928b-4f0a-aacf-bdd53dce8845"
-					(reference "#PWR025")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -8272,7 +8320,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a539168c-1d9f-4680-af0a-55713b7445bb")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR042"
 			(at 226.06 109.22 0)
 			(effects
 				(font
@@ -8322,7 +8370,7 @@
 		(instances
 			(project "Spa-Eau_Rouge"
 				(path "/c4971751-18ba-42c0-933f-7e935423e3d9/6d04b95b-928b-4f0a-aacf-bdd53dce8845"
-					(reference "#PWR032")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -8338,7 +8386,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa01cda2-ce63-4f02-9344-02d23faf4e9b")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR038"
 			(at 139.7 109.22 0)
 			(effects
 				(font
@@ -8388,7 +8436,7 @@
 		(instances
 			(project "Spa-Eau_Rouge"
 				(path "/c4971751-18ba-42c0-933f-7e935423e3d9/6d04b95b-928b-4f0a-aacf-bdd53dce8845"
-					(reference "#PWR033")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -8511,7 +8559,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "acefa0a3-9d1b-4ec3-8665-569ba77a7d73")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR049"
 			(at 116.84 160.02 0)
 			(effects
 				(font
@@ -8561,7 +8609,7 @@
 		(instances
 			(project "Spa-Eau_Rouge"
 				(path "/c4971751-18ba-42c0-933f-7e935423e3d9/6d04b95b-928b-4f0a-aacf-bdd53dce8845"
-					(reference "#PWR045")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -8569,7 +8617,7 @@
 	)
 	(symbol
 		(lib_id "Inductors:NRS5030T4R7MMGJV")
-		(at 157.48 87.63 0)
+		(at 160.02 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8577,7 +8625,7 @@
 		(dnp no)
 		(uuid "afcf6b54-ef0a-4dda-a65b-54f95f40ca41")
 		(property "Reference" "L1"
-			(at 157.48 77.47 0)
+			(at 160.02 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8585,7 +8633,7 @@
 			)
 		)
 		(property "Value" "NRS5030T4R7MMGJV"
-			(at 149.352 106.172 0)
+			(at 151.892 106.172 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8594,7 +8642,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_Taiyo-Yuden_NRS5030T4R7MMGJV"
-			(at 158.242 100.584 0)
+			(at 160.782 100.584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8603,7 +8651,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 138.43 106.172 0)
+			(at 140.97 106.172 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8612,7 +8660,7 @@
 			)
 		)
 		(property "Description" "FIXED IND 4.7UH 2.6A 45.5MOHM SM"
-			(at 157.734 103.378 0)
+			(at 160.274 103.378 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8621,7 +8669,7 @@
 			)
 		)
 		(property "Inductance" "4.7µH"
-			(at 157.48 80.01 0)
+			(at 160.02 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8629,7 +8677,7 @@
 			)
 		)
 		(property "DCR" "45.5mΩ"
-			(at 157.48 82.55 0)
+			(at 160.274 84.836 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8637,7 +8685,7 @@
 			)
 		)
 		(property "Current Rating" "2.6A"
-			(at 157.48 85.09 0)
+			(at 160.02 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8645,7 +8693,7 @@
 			)
 		)
 		(property "Size" "4.9mm x 4.9mm"
-			(at 147.32 108.712 0)
+			(at 149.86 108.712 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8981,7 +9029,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c22e88cd-d8de-4f30-9c89-e4b12afea815")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR047"
 			(at 49.53 160.02 0)
 			(effects
 				(font
@@ -9031,7 +9079,7 @@
 		(instances
 			(project "Spa-Eau_Rouge"
 				(path "/c4971751-18ba-42c0-933f-7e935423e3d9/6d04b95b-928b-4f0a-aacf-bdd53dce8845"
-					(reference "#PWR042")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -9146,7 +9194,7 @@
 	)
 	(symbol
 		(lib_id "Resistors:ERJ-P06J431V")
-		(at 132.08 157.48 0)
+		(at 132.08 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9154,8 +9202,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce67d3de-4ab1-400c-9abd-cb3511b6d1d8")
-		(property "Reference" "R15"
-			(at 134.62 152.3999 0)
+		(property "Reference" "R13"
+			(at 134.62 156.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9164,7 +9212,7 @@
 			)
 		)
 		(property "Value" "ERJ-P06J112V"
-			(at 144.018 183.388 0)
+			(at 144.018 187.198 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9174,7 +9222,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 133.096 179.07 0)
+			(at 133.096 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9184,7 +9232,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 157.48 90)
+			(at 132.08 161.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9193,7 +9241,7 @@
 			)
 		)
 		(property "Description" "RES SMD 430 OHM 5% 1/2W 0805"
-			(at 132.842 176.276 0)
+			(at 132.842 180.086 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9202,7 +9250,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Panasonic Electronic Components"
-			(at 132.334 175.26 0)
+			(at 132.334 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9212,7 +9260,7 @@
 			)
 		)
 		(property "Resistance" "430Ω"
-			(at 134.62 154.9399 0)
+			(at 134.62 158.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9221,7 +9269,7 @@
 			)
 		)
 		(property "Tolerance" "5%"
-			(at 134.62 157.4799 0)
+			(at 134.62 161.2899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9230,7 +9278,7 @@
 			)
 		)
 		(property "Power" "1/2W"
-			(at 134.62 160.0199 0)
+			(at 134.62 163.8299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9239,7 +9287,7 @@
 			)
 		)
 		(property "Package" "0805"
-			(at 134.62 162.5599 0)
+			(at 134.62 166.3699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9256,7 +9304,7 @@
 		(instances
 			(project ""
 				(path "/c4971751-18ba-42c0-933f-7e935423e3d9/6d04b95b-928b-4f0a-aacf-bdd53dce8845"
-					(reference "R15")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -9264,7 +9312,7 @@
 	)
 	(symbol
 		(lib_id "Resistors:ERJ-P06J112V")
-		(at 146.05 50.8 0)
+		(at 146.05 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9272,8 +9320,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cea7b47f-3c37-46c9-ac16-dfa964c38875")
-		(property "Reference" "R10"
-			(at 148.59 45.7199 0)
+		(property "Reference" "R7"
+			(at 148.59 49.5299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9282,7 +9330,7 @@
 			)
 		)
 		(property "Value" "ERJ-P06J112V"
-			(at 157.988 76.708 0)
+			(at 157.988 80.518 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9292,7 +9340,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 147.066 72.39 0)
+			(at 147.066 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9302,7 +9350,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 50.8 90)
+			(at 146.05 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9311,7 +9359,7 @@
 			)
 		)
 		(property "Description" "RES SMD 1.1K OHM 5% 1/2W 0805"
-			(at 146.812 69.596 0)
+			(at 146.812 73.406 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9320,7 +9368,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Panasonic Electronic Components"
-			(at 146.304 68.58 0)
+			(at 146.304 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9330,7 +9378,7 @@
 			)
 		)
 		(property "Resistance" "1.1kΩ"
-			(at 148.59 48.2599 0)
+			(at 148.59 52.0699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9339,7 +9387,7 @@
 			)
 		)
 		(property "Tolerance" "5%"
-			(at 148.59 50.7999 0)
+			(at 148.59 54.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9348,7 +9396,7 @@
 			)
 		)
 		(property "Power" "1/2W"
-			(at 148.59 53.3399 0)
+			(at 148.59 57.1499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9357,7 +9405,7 @@
 			)
 		)
 		(property "Package" "0805"
-			(at 148.59 55.8799 0)
+			(at 148.59 59.6899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9374,7 +9422,7 @@
 		(instances
 			(project ""
 				(path "/c4971751-18ba-42c0-933f-7e935423e3d9/6d04b95b-928b-4f0a-aacf-bdd53dce8845"
-					(reference "R10")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -9389,7 +9437,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d4da5055-d3a1-4b8c-ae99-fd5d0b2c8a0e")
-		(property "Reference" "R9"
+		(property "Reference" "R8"
 			(at 96.52 85.09 90)
 			(effects
 				(font
@@ -9520,7 +9568,7 @@
 		(instances
 			(project ""
 				(path "/c4971751-18ba-42c0-933f-7e935423e3d9/6d04b95b-928b-4f0a-aacf-bdd53dce8845"
-					(reference "R9")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -9535,7 +9583,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d5653e88-cf8a-492a-8255-6b9721ece336")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR026"
 			(at 146.05 31.75 0)
 			(effects
 				(font
@@ -9585,7 +9633,7 @@
 		(instances
 			(project "Spa-Eau_Rouge"
 				(path "/c4971751-18ba-42c0-933f-7e935423e3d9/6d04b95b-928b-4f0a-aacf-bdd53dce8845"
-					(reference "#PWR039")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -9601,7 +9649,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dbd44e55-853b-423d-955d-51cbc9d10115")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR050"
 			(at 101.6 175.26 0)
 			(effects
 				(font
@@ -9651,7 +9699,7 @@
 		(instances
 			(project "Spa-Eau_Rouge"
 				(path "/c4971751-18ba-42c0-933f-7e935423e3d9/6d04b95b-928b-4f0a-aacf-bdd53dce8845"
-					(reference "#PWR047")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -9667,7 +9715,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0f5ecb0-4265-48b2-88cf-53383a0501ac")
-		(property "Reference" "C13"
+		(property "Reference" "C5"
 			(at 123.19 37.4649 0)
 			(effects
 				(font
@@ -9740,7 +9788,7 @@
 		(instances
 			(project ""
 				(path "/c4971751-18ba-42c0-933f-7e935423e3d9/6d04b95b-928b-4f0a-aacf-bdd53dce8845"
-					(reference "C13")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -9771,7 +9819,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2_LM317MDCYR"
 			(at 84.328 155.448 0)
 			(effects
 				(font
@@ -9827,7 +9875,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e94871ef-b067-4928-8193-6ad6fc54e99c")
-		(property "Reference" "R8"
+		(property "Reference" "R11"
 			(at 172.72 105.4099 0)
 			(effects
 				(font
@@ -9959,7 +10007,7 @@
 		(instances
 			(project ""
 				(path "/c4971751-18ba-42c0-933f-7e935423e3d9/6d04b95b-928b-4f0a-aacf-bdd53dce8845"
-					(reference "R8")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -9975,7 +10023,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef81d2c6-5043-4c50-862c-ad74198cbad9")
-		(property "Reference" "R13"
+		(property "Reference" "R14"
 			(at 104.14 156.2099 0)
 			(effects
 				(font
@@ -10067,7 +10115,7 @@
 		(instances
 			(project ""
 				(path "/c4971751-18ba-42c0-933f-7e935423e3d9/6d04b95b-928b-4f0a-aacf-bdd53dce8845"
-					(reference "R13")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -10083,7 +10131,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f045c3e2-8301-45e9-9840-fab730aea850")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR027"
 			(at 72.39 33.02 0)
 			(effects
 				(font
@@ -10133,7 +10181,7 @@
 		(instances
 			(project ""
 				(path "/c4971751-18ba-42c0-933f-7e935423e3d9/6d04b95b-928b-4f0a-aacf-bdd53dce8845"
-					(reference "#PWR036")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -10148,7 +10196,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f11d5b9c-96ef-497b-839c-5a2b9e753ddb")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR033"
 			(at 49.53 81.28 0)
 			(effects
 				(font
@@ -10198,7 +10246,7 @@
 		(instances
 			(project ""
 				(path "/c4971751-18ba-42c0-933f-7e935423e3d9/6d04b95b-928b-4f0a-aacf-bdd53dce8845"
-					(reference "#PWR021")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -10280,7 +10328,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb093b7f-509e-4fce-8ea0-d556b9783bef")
-		(property "Reference" "C11"
+		(property "Reference" "C12"
 			(at 215.9 90.1699 0)
 			(effects
 				(font
@@ -10371,7 +10419,7 @@
 		(instances
 			(project "Spa-Eau_Rouge"
 				(path "/c4971751-18ba-42c0-933f-7e935423e3d9/6d04b95b-928b-4f0a-aacf-bdd53dce8845"
-					(reference "C11")
+					(reference "C12")
 					(unit 1)
 				)
 			)
