@@ -4496,12 +4496,6 @@
 		(uuid "a5b375ed-26b5-433e-adc6-58ff11126568")
 	)
 	(junction
-		(at 198.12 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ab91d980-78c0-4268-8ad7-61d0e37ef901")
-	)
-	(junction
 		(at 63.5 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4542,12 +4536,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cc86cdb2-dfc1-4053-8747-0f86c869f228")
-	)
-	(junction
-		(at 212.09 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d0d2bee0-d4df-47c6-b0a8-b42fed5df632")
 	)
 	(junction
 		(at 198.12 87.63)
@@ -4745,16 +4733,6 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 97.79) (xy 212.09 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41678c83-5b6d-4f9c-91a5-e8c126b2d626")
-	)
-	(wire
-		(pts
 			(xy 184.15 87.63) (xy 198.12 87.63)
 		)
 		(stroke
@@ -4772,16 +4750,6 @@
 			(type default)
 		)
 		(uuid "467d0d63-2c6a-40b3-8520-eb5884ce691d")
-	)
-	(wire
-		(pts
-			(xy 105.41 38.1) (xy 107.95 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4698ed7a-87f6-40f9-8eb5-afab104888ee")
 	)
 	(wire
 		(pts
@@ -4865,13 +4833,13 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 38.1) (xy 107.95 49.53)
+			(xy 105.41 27.94) (xy 115.57 27.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "527b3566-23ff-4276-b78a-ebe1b7ef47f6")
+		(uuid "52e1f7e5-047d-4254-8ec4-dd37be192c1c")
 	)
 	(wire
 		(pts
@@ -4915,6 +4883,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 99.06) (xy 198.12 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6006453c-931b-44ba-bd8e-a66cce6b1277")
+	)
+	(wire
+		(pts
 			(xy 77.47 33.02) (xy 95.25 33.02)
 		)
 		(stroke
@@ -4922,6 +4900,16 @@
 			(type default)
 		)
 		(uuid "602f7fce-681d-4778-916b-a05b5d40c3ef")
+	)
+	(wire
+		(pts
+			(xy 212.09 99.06) (xy 212.09 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64ab28b9-43e1-4d39-8fbb-11dc28140989")
 	)
 	(wire
 		(pts
@@ -4985,16 +4973,6 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 97.79) (xy 198.12 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "750b2ba8-b528-4bc0-a1ce-ae665f0edb5d")
-	)
-	(wire
-		(pts
 			(xy 95.25 153.67) (xy 101.6 153.67)
 		)
 		(stroke
@@ -5002,6 +4980,16 @@
 			(type default)
 		)
 		(uuid "76d4ba4a-6c6d-4a03-889d-de6e851a822b")
+	)
+	(wire
+		(pts
+			(xy 87.63 27.94) (xy 95.25 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c770555-2105-4114-9cd9-8f7702b16047")
 	)
 	(wire
 		(pts
@@ -5122,16 +5110,6 @@
 			(type default)
 		)
 		(uuid "8d41f7c8-3a41-4710-a676-a701fffecd70")
-	)
-	(wire
-		(pts
-			(xy 198.12 102.87) (xy 198.12 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8faf157e-ad1e-4d93-a489-2d63729e170b")
 	)
 	(wire
 		(pts
@@ -5305,16 +5283,6 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 38.1) (xy 92.71 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7edb075-b37b-450c-beea-96ff12f4e014")
-	)
-	(wire
-		(pts
 			(xy 170.18 87.63) (xy 184.15 87.63)
 		)
 		(stroke
@@ -5322,16 +5290,6 @@
 			(type default)
 		)
 		(uuid "b922ed21-32b8-4efb-9f51-1433a14a9c78")
-	)
-	(wire
-		(pts
-			(xy 92.71 38.1) (xy 92.71 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b980536f-b69b-47cc-9cff-4aec6c4f2edb")
 	)
 	(wire
 		(pts
@@ -5432,16 +5390,6 @@
 			(type default)
 		)
 		(uuid "e422385d-ff06-4074-a151-9371e0e6d310")
-	)
-	(wire
-		(pts
-			(xy 212.09 102.87) (xy 212.09 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e56dec10-79d8-448d-80ee-5bbca4ccb633")
 	)
 	(wire
 		(pts
@@ -5729,7 +5677,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 107.95 49.53 0)
+		(at 115.57 27.94 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5738,7 +5686,7 @@
 		(fields_autoplaced yes)
 		(uuid "07590780-ca9d-449b-b252-052da4bff55b")
 		(property "Reference" "#PWR030"
-			(at 107.95 55.88 0)
+			(at 115.57 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5747,7 +5695,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 107.95 54.61 0)
+			(at 115.57 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5755,7 +5703,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 107.95 49.53 0)
+			(at 115.57 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5764,7 +5712,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 49.53 0)
+			(at 115.57 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5773,7 +5721,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 107.95 49.53 0)
+			(at 115.57 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6869,113 +6817,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Filter:CMC_TDK_ACM4520-421-2P-T000")
-		(at 100.33 35.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "596fdc4b-37d7-4707-accf-435fa33ceeae")
-		(property "Reference" "FL1"
-			(at 100.33 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ACM4520-421-2P-T000"
-			(at 103.632 48.768 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_CommonModeChoke_TDK_ACM4520-421-2P-T000"
-			(at 100.33 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 100.33 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CMC 2.8A 2LN 420 OHM SMD"
-			(at 100.33 51.816 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Current Rating" "2.8A"
-			(at 100.33 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Impedance @ Frequency" "420Ω @ 100MHz"
-			(at 100.33 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DC Resistance (DCR) (Max) " "55mΩ"
-			(at 100.33 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mannufacturer" "TDK Corporation  "
-			(at 99.822 54.102 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "f7b5b674-3da2-4bff-a486-ea683fc4a2e4")
-		)
-		(pin "3"
-			(uuid "5d6c6bd9-2d45-4517-b8da-2161f58f8cf5")
-		)
-		(pin "1"
-			(uuid "f06f6a8c-8857-4578-a125-e3f594cac097")
-		)
-		(pin "2"
-			(uuid "4f84218b-97f1-4606-8f17-b43df649a9d8")
-		)
-		(instances
-			(project ""
-				(path "/c4971751-18ba-42c0-933f-7e935423e3d9/6d04b95b-928b-4f0a-aacf-bdd53dce8845"
-					(reference "FL1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 241.3 116.84 0)
 		(unit 1)
@@ -7876,17 +7717,24 @@
 		)
 	)
 	(symbol
-		(lib_id "power:-BATT")
-		(at 92.71 49.53 180)
+		(lib_id "Filter:CMC_TDK_ACM4520-421-2P-T000")
+		(at 100.33 30.48 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "831adae2-ed4d-4336-9efb-00aef4bf9fca")
-		(property "Reference" "#PWR029"
-			(at 92.71 45.72 0)
+		(uuid "82f2bd52-c099-4dd8-9864-5a22ecdea2fc")
+		(property "Reference" "FL1"
+			(at 100.076 16.764 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ACM4520-421-2P-T000"
+			(at 97.028 17.272 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7894,16 +7742,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "-BATT"
-			(at 92.71 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 92.71 49.53 0)
+		(property "Footprint" "Inductor_SMD:L_CommonModeChoke_TDK_ACM4520-421-2P-T000"
+			(at 100.33 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7912,7 +7752,115 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 49.53 0)
+			(at 100.33 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CMC 2.8A 2LN 420 OHM SMD"
+			(at 100.33 14.224 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Current Rating" "2.8A"
+			(at 100.33 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Impedance @ Frequency" "420Ω @ 100MHz"
+			(at 100.33 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DC Resistance (DCR) (Max) " "55mΩ"
+			(at 100.33 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mannufacturer" "TDK Corporation  "
+			(at 100.838 11.938 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "21323401-6327-4915-9bc8-8530a5696919")
+		)
+		(pin "3"
+			(uuid "81dc47de-c695-4f0d-8547-4d4e67b98833")
+		)
+		(pin "1"
+			(uuid "bbf1d11a-9c39-4c7f-ace4-40d95a05cae4")
+		)
+		(pin "2"
+			(uuid "60e3e924-444c-493c-8728-dc7abb034e0d")
+		)
+		(instances
+			(project "Spa-Eau_Rouge"
+				(path "/c4971751-18ba-42c0-933f-7e935423e3d9/6d04b95b-928b-4f0a-aacf-bdd53dce8845"
+					(reference "FL1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-BATT")
+		(at 87.63 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "831adae2-ed4d-4336-9efb-00aef4bf9fca")
+		(property "Reference" "#PWR029"
+			(at 87.63 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-BATT"
+			(at 87.63 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7921,7 +7869,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-BATT\""
-			(at 92.71 49.53 0)
+			(at 87.63 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)

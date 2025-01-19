@@ -1441,16 +1441,6 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 118.11) (xy 266.7 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e41d8e6-d160-4f74-b979-0b0f0b7e85c0")
-	)
-	(wire
-		(pts
 			(xy 45.72 60.96) (xy 39.37 60.96)
 		)
 		(stroke
@@ -1541,6 +1531,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 110.49) (xy 278.13 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50bd214a-72f2-4872-aef6-5568a91ed83d")
+	)
+	(wire
+		(pts
 			(xy 255.27 114.3) (xy 266.7 114.3)
 		)
 		(stroke
@@ -1548,6 +1548,16 @@
 			(type default)
 		)
 		(uuid "534e4566-94e6-4fea-bb14-f927121030d2")
+	)
+	(wire
+		(pts
+			(xy 283.21 118.11) (xy 278.13 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55b082bc-52c2-4f2a-be35-60cac9f3358a")
 	)
 	(wire
 		(pts
@@ -1568,6 +1578,26 @@
 			(type default)
 		)
 		(uuid "5d579bab-03e9-4734-ab57-95f353eb3139")
+	)
+	(wire
+		(pts
+			(xy 283.21 118.11) (xy 283.21 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66b11d09-35f8-4256-92fb-da671d1c5193")
+	)
+	(wire
+		(pts
+			(xy 266.7 124.46) (xy 266.7 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c30fe69-01d5-46fc-812b-428f5cb7bdfa")
 	)
 	(wire
 		(pts
@@ -1641,6 +1671,16 @@
 	)
 	(wire
 		(pts
+			(xy 278.13 110.49) (xy 278.13 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4e1add8-b8ce-440f-8c8c-dc4ad386c0bd")
+	)
+	(wire
+		(pts
 			(xy 160.02 78.74) (xy 160.02 90.17)
 		)
 		(stroke
@@ -1671,16 +1711,6 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 114.3) (xy 266.7 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3af6cb5-6b47-44e9-adc8-d41d6f1571bc")
-	)
-	(wire
-		(pts
 			(xy 177.8 114.3) (xy 177.8 60.96)
 		)
 		(stroke
@@ -1688,6 +1718,16 @@
 			(type default)
 		)
 		(uuid "b6904871-950e-4eff-8adb-3d32d483f6a1")
+	)
+	(wire
+		(pts
+			(xy 283.21 124.46) (xy 266.7 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfcc842e-1d93-4c7d-ac75-e01711d42222")
 	)
 	(wire
 		(pts
@@ -1738,6 +1778,16 @@
 			(type default)
 		)
 		(uuid "eb0233b4-5eb6-4fcb-a42d-0176e4e9d8b7")
+	)
+	(wire
+		(pts
+			(xy 266.7 114.3) (xy 266.7 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f01661b8-0277-4354-a9ff-3f9399a3afd0")
 	)
 	(wire
 		(pts
@@ -2667,75 +2717,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02_1985807")
-		(at 271.78 115.57 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cc01ef91-1e10-41d9-a2f8-7b6ec8b00c14")
-		(property "Reference" "J4"
-			(at 270.256 112.776 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1985807"
-			(at 270.002 120.904 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P3.50mm_Horizontal_1985807"
-			(at 273.05 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 271.78 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "TERM BLK 2POS SIDE ENT 3.5MM PCB"
-			(at 272.542 126.238 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ad13ee83-f338-4757-bb03-e570f7a4bb51")
-		)
-		(pin "2"
-			(uuid "cf4c25ec-d933-4985-8995-e01b8b2bdecc")
-		)
-		(instances
-			(project ""
-				(path "/c4971751-18ba-42c0-933f-7e935423e3d9"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 88.9 165.1 0)
 		(unit 1)
@@ -2794,6 +2775,75 @@
 			(project "Spa-Eau_Rouge"
 				(path "/c4971751-18ba-42c0-933f-7e935423e3d9"
 					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02_1985807")
+		(at 273.05 118.11 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d17164b2-ae57-47ad-95e4-16d48d018edb")
+		(property "Reference" "J4"
+			(at 273.812 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1985807"
+			(at 279.908 121.158 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P3.50mm_Horizontal_1985807"
+			(at 271.78 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 273.05 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "TERM BLK 2POS SIDE ENT 3.5MM PCB"
+			(at 272.288 107.442 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a8b0e106-6b48-4822-9cea-b2efa99ce198")
+		)
+		(pin "2"
+			(uuid "17af4b73-3d28-4d1f-830e-87a85788b5ee")
+		)
+		(instances
+			(project "Spa-Eau_Rouge"
+				(path "/c4971751-18ba-42c0-933f-7e935423e3d9"
+					(reference "J4")
 					(unit 1)
 				)
 			)
