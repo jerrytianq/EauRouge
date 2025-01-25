@@ -191,28 +191,28 @@
 				)
 			)
 		)
-		(symbol "Connector:JST-GH_SM02B-GHS-TB"
+		(symbol "Connector:JST-GH_SM05B-GHS-TB"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0.508 4.826 0)
+				(at 0.508 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "SM02B-GHS-TB"
-				(at 7.366 -10.414 0)
+			(property "Value" "SM05B-GHS-TB"
+				(at 7.62 -22.606 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "Connector_JST:JST_GH_SM02B-GHS-TB_1x02-1MP_P1.25mm_Horizontal"
-				(at 5.842 -16.51 0)
+			(property "Footprint" "Connector_JST:JST_GH_SM05B-GHS-TB_1x05-1MP_P1.25mm_Horizontal"
+				(at 6.096 -28.702 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -229,8 +229,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "CONN HEADER SMD R/A 2POS 1.25MM"
-				(at 7.62 -13.716 0)
+			(property "Description" "CONN HEADER SMD R/A 5POS 1.25MM"
+				(at 7.874 -25.908 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -238,10 +238,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "JST-GH_SM02B-GHS-TB_0_1"
+			(symbol "JST-GH_SM05B-GHS-TB_0_1"
 				(rectangle
 					(start 0 3.81)
-					(end 3.81 -8.89)
+					(end 3.81 -20.32)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -251,7 +251,43 @@
 					)
 				)
 			)
-			(symbol "JST-GH_SM02B-GHS-TB_1_1"
+			(symbol "JST-GH_SM05B-GHS-TB_1_1"
+				(polyline
+					(pts
+						(xy 3.81 -13.97) (xy 2.54 -13.97)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -10.16) (xy 2.54 -10.16)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -6.35) (xy 2.54 -6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(polyline
 					(pts
 						(xy 3.81 -2.54) (xy 2.54 -2.54)
@@ -279,6 +315,39 @@
 				(rectangle
 					(start 1.905 1.905)
 					(end 3.175 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -13.97)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -10.16)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -6.35)
+					(radius 0.635)
 					(stroke
 						(width 0)
 						(type default)
@@ -336,6 +405,60 @@
 				)
 				(pin passive line
 					(at 7.62 -6.35 180)
+					(length 3.81)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -10.16 180)
+					(length 3.81)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -13.97 180)
+					(length 3.81)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -17.78 180)
 					(length 3.81)
 					(name "MP"
 						(effects
@@ -1384,22 +1507,10 @@
 		)
 	)
 	(junction
-		(at 133.35 60.96)
+		(at 137.16 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "002b597d-9cd2-4961-9590-01b7d03a7934")
-	)
-	(junction
-		(at 133.35 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "22f619c9-ff55-4cf8-af7b-d50aa128a613")
-	)
-	(junction
-		(at 255.27 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9be3e596-79a5-4850-97bf-2a0bedbd85f7")
+		(uuid "a9abc1b4-019d-4e07-9180-0aa1f680f807")
 	)
 	(junction
 		(at 45.72 60.96)
@@ -1408,20 +1519,14 @@
 		(uuid "b0a0bda6-4af6-4881-a18b-b62c58109d39")
 	)
 	(junction
-		(at 255.27 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bf063758-c73f-45ca-8e30-ed0f68179f14")
-	)
-	(junction
-		(at 45.72 121.92)
+		(at 63.5 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ed8751c7-0607-4094-8b89-c310d55758dd")
 	)
 	(wire
 		(pts
-			(xy 34.29 121.92) (xy 45.72 121.92)
+			(xy 52.07 133.35) (xy 63.5 133.35)
 		)
 		(stroke
 			(width 0)
@@ -1441,6 +1546,26 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 121.92) (xy 68.58 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e2ecacd-7be9-4f08-8e08-c4f2857b3314")
+	)
+	(wire
+		(pts
+			(xy 148.59 129.54) (xy 148.59 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11cb5d01-ab40-4ef5-84e2-71f48718120d")
+	)
+	(wire
+		(pts
 			(xy 45.72 60.96) (xy 39.37 60.96)
 		)
 		(stroke
@@ -1451,27 +1576,17 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 101.6) (xy 171.45 97.79)
+			(xy 92.71 107.95) (xy 92.71 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1a4143ed-535a-4924-bd9f-5d81bf1aa6e8")
+		(uuid "18b4567a-c419-4f2d-951d-473396ece14d")
 	)
 	(wire
 		(pts
-			(xy 166.37 72.39) (xy 166.37 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b4b7772-f2d9-4614-b0fc-38646902a724")
-	)
-	(wire
-		(pts
-			(xy 243.84 114.3) (xy 255.27 114.3)
+			(xy 212.09 60.96) (xy 220.98 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1481,23 +1596,23 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 60.96) (xy 177.8 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27980293-0f01-4299-9e25-10804b6d3e6b")
-	)
-	(wire
-		(pts
-			(xy 121.92 72.39) (xy 133.35 72.39)
+			(xy 121.92 68.58) (xy 137.16 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "27babcbc-3bab-4546-bed2-61f0499846ae")
+	)
+	(wire
+		(pts
+			(xy 220.98 71.12) (xy 220.98 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "293f2215-a984-49de-9164-1f9c348e0aa8")
 	)
 	(wire
 		(pts
@@ -1511,17 +1626,17 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 97.79) (xy 171.45 97.79)
+			(xy 121.92 120.65) (xy 144.78 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "41f8040b-0036-4bbd-8988-4b0b57e6b36f")
+		(uuid "439fd325-1688-457d-896b-e4d94887175e")
 	)
 	(wire
 		(pts
-			(xy 133.35 60.96) (xy 121.92 60.96)
+			(xy 121.92 60.96) (xy 137.16 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1531,47 +1646,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 110.49) (xy 278.13 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50bd214a-72f2-4872-aef6-5568a91ed83d")
-	)
-	(wire
-		(pts
-			(xy 255.27 114.3) (xy 266.7 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "534e4566-94e6-4fea-bb14-f927121030d2")
-	)
-	(wire
-		(pts
-			(xy 283.21 118.11) (xy 278.13 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55b082bc-52c2-4f2a-be35-60cac9f3358a")
-	)
-	(wire
-		(pts
-			(xy 190.5 114.3) (xy 177.8 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57dc2f65-5bd4-4bc7-9b53-136f9eeafea0")
-	)
-	(wire
-		(pts
-			(xy 45.72 118.11) (xy 45.72 121.92)
+			(xy 63.5 129.54) (xy 63.5 133.35)
 		)
 		(stroke
 			(width 0)
@@ -1581,23 +1656,13 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 118.11) (xy 283.21 124.46)
+			(xy 137.16 60.96) (xy 158.75 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "66b11d09-35f8-4256-92fb-da671d1c5193")
-	)
-	(wire
-		(pts
-			(xy 266.7 124.46) (xy 266.7 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c30fe69-01d5-46fc-812b-428f5cb7bdfa")
+		(uuid "6c221318-c6db-4a07-a1e9-ec5d88fe269b")
 	)
 	(wire
 		(pts
@@ -1611,17 +1676,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 90.17) (xy 157.48 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8470837d-58f0-4e12-b2fe-12259d78af7e")
-	)
-	(wire
-		(pts
-			(xy 121.92 119.38) (xy 190.5 119.38)
+			(xy 148.59 66.04) (xy 158.75 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1631,27 +1686,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 93.98) (xy 157.48 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "970e7a95-febc-4b99-bf69-bffcc2627b7b")
-	)
-	(wire
-		(pts
-			(xy 255.27 110.49) (xy 255.27 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d51d19b-1586-4e90-a6a1-65173f35f015")
-	)
-	(wire
-		(pts
-			(xy 133.35 59.69) (xy 133.35 60.96)
+			(xy 137.16 59.69) (xy 137.16 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1661,7 +1696,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 119.38) (xy 255.27 119.38)
+			(xy 212.09 66.04) (xy 220.98 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1671,23 +1706,13 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 110.49) (xy 278.13 115.57)
+			(xy 52.07 125.73) (xy 68.58 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a4e1add8-b8ce-440f-8c8c-dc4ad386c0bd")
-	)
-	(wire
-		(pts
-			(xy 160.02 78.74) (xy 160.02 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8252d5a-84f7-4482-8eb3-992f4282d633")
+		(uuid "a967b622-fbe5-4350-95e9-40850e9fa896")
 	)
 	(wire
 		(pts
@@ -1701,7 +1726,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 114.3) (xy 68.58 114.3)
+			(xy 52.07 114.3) (xy 68.58 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1711,47 +1736,37 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 114.3) (xy 177.8 60.96)
+			(xy 172.72 143.51) (xy 195.58 143.51)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b6904871-950e-4eff-8adb-3d32d483f6a1")
+		(uuid "b5e1fad2-207f-4dbc-816f-fcd0d189ada4")
 	)
 	(wire
 		(pts
-			(xy 283.21 124.46) (xy 266.7 124.46)
+			(xy 220.98 57.15) (xy 220.98 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bfcc842e-1d93-4c7d-ac75-e01711d42222")
+		(uuid "c1dceaed-b3b2-4b5e-95b4-3ffdde486102")
 	)
 	(wire
 		(pts
-			(xy 255.27 119.38) (xy 266.7 119.38)
+			(xy 148.59 129.54) (xy 121.92 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cfa446dd-1917-407f-ba90-19d361af1eaa")
+		(uuid "c28565cc-ced2-4acf-a367-897ed117d98c")
 	)
 	(wire
 		(pts
-			(xy 144.78 78.74) (xy 160.02 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d199eb81-9571-467c-ad1c-dc848ac81c6a")
-	)
-	(wire
-		(pts
-			(xy 34.29 118.11) (xy 45.72 118.11)
+			(xy 52.07 129.54) (xy 63.5 129.54)
 		)
 		(stroke
 			(width 0)
@@ -1761,17 +1776,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 72.39) (xy 166.37 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da8ecced-de65-4703-8107-a879e541cba0")
-	)
-	(wire
-		(pts
-			(xy 45.72 121.92) (xy 45.72 123.19)
+			(xy 63.5 133.35) (xy 63.5 134.62)
 		)
 		(stroke
 			(width 0)
@@ -1781,13 +1786,23 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 114.3) (xy 266.7 110.49)
+			(xy 172.72 121.92) (xy 195.58 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f01661b8-0277-4354-a9ff-3f9399a3afd0")
+		(uuid "ebe24d5e-01e1-4930-beba-9e5ffd608753")
+	)
+	(wire
+		(pts
+			(xy 52.07 118.11) (xy 68.58 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efacc438-b50d-4f18-8172-6cf3aaf429e1")
 	)
 	(wire
 		(pts
@@ -1799,28 +1814,52 @@
 		)
 		(uuid "f217b911-2d1d-4dab-a884-e9b167979c01")
 	)
-	(wire
-		(pts
-			(xy 144.78 78.74) (xy 144.78 114.3)
+	(label "SDA"
+		(at 58.42 121.92 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
 		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5e9af6c-cb8f-4d14-a308-25e51551c960")
+		(uuid "024b827b-ac42-4d6b-8004-252631fc0787")
 	)
-	(wire
-		(pts
-			(xy 255.27 123.19) (xy 255.27 119.38)
+	(label "BUFF_SERVO_PWM1"
+		(at 124.46 114.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
 		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8a86b76-6c4a-4674-bb2b-dd5664bfbd73")
+		(uuid "0fbf11dd-e18e-4015-a4e3-4bd099bac1b1")
 	)
-	(label "RELEASE_TRIGGER"
-		(at 45.72 114.3 0)
+	(label "DJI_PWM2"
+		(at 55.88 118.11 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "114b97c1-2b02-4dfb-9ee1-6ea5ade6154a")
+	)
+	(label "BUFF_SERVO_PWM1"
+		(at 175.26 121.92 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3932e417-1401-4c5a-98a8-abe089d996bb")
+	)
+	(label "DJI_PWM1"
+		(at 55.88 114.3 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1830,8 +1869,8 @@
 		)
 		(uuid "40fd8cfd-0c28-46df-bd2a-adc2eec1d80b")
 	)
-	(label "BUFF_SERVO_PWM"
-		(at 125.73 114.3 0)
+	(label "SCL"
+		(at 58.42 125.73 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1839,10 +1878,21 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "7cf140b3-df61-4259-aca7-5ef0c7b76611")
+		(uuid "8556982c-a245-4aee-941f-4a79d0fe244f")
+	)
+	(label "BUFF_SERVO_PWM2"
+		(at 124.46 120.65 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bf35ff0d-19e8-4064-9a4c-1526a702845a")
 	)
 	(label "SOLENOID_DRIVE"
-		(at 125.73 119.38 0)
+		(at 125.73 129.54 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1851,6 +1901,17 @@
 			(justify left bottom)
 		)
 		(uuid "d4734df7-1d27-4e49-b275-f5968ed537ef")
+	)
+	(label "BUFF_SERVO_PWM2"
+		(at 193.04 143.51 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f0d0f5b8-9ba1-4414-a19d-cec94f89e2a9")
 	)
 	(symbol
 		(lib_id "power:+BATT")
@@ -1919,17 +1980,16 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 45.72 123.19 0)
+		(lib_id "power:+5V")
+		(at 195.58 139.7 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0e36ac7f-c495-449f-9382-38e4e5088ba7")
-		(property "Reference" "#PWR07"
-			(at 45.72 129.54 0)
+		(uuid "0889f620-0b15-4d25-abe4-453e55bb1027")
+		(property "Reference" "#PWR060"
+			(at 199.39 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1937,8 +1997,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 45.72 128.27 0)
+		(property "Value" "+5V"
+			(at 190.754 139.7 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1946,7 +2006,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 123.19 0)
+			(at 195.58 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1955,7 +2015,73 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 123.19 0)
+			(at 195.58 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 195.58 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "548ffc6e-c03b-4035-acc3-5c01ecd287f4")
+		)
+		(instances
+			(project "Spa-Eau_Rouge"
+				(path "/c4971751-18ba-42c0-933f-7e935423e3d9"
+					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 63.5 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e36ac7f-c495-449f-9382-38e4e5088ba7")
+		(property "Reference" "#PWR07"
+			(at 63.5 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 63.5 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1964,7 +2090,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 45.72 123.19 0)
+			(at 63.5 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1985,32 +2111,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:JST-GH_SM02B-GHS-TB")
-		(at 26.67 115.57 0)
+		(lib_id "power:+12V")
+		(at 194.31 100.33 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "1a8f621d-c18f-4c09-988f-ded04c67a0f8")
-		(property "Reference" "J3"
-			(at 27.686 110.49 0)
+		(fields_autoplaced yes)
+		(uuid "1a29a5f5-294f-43ac-a331-25af0d6890be")
+		(property "Reference" "#PWR059"
+			(at 198.12 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Value" "SM02B-GHS-TB"
-			(at 33.782 125.984 0)
+		(property "Value" "+12V"
+			(at 190.5 100.3299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_GH_SM02B-GHS-TB_1x02-1MP_P1.25mm_Horizontal"
-			(at 32.512 133.604 0)
+		(property "Footprint" ""
+			(at 194.31 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2019,7 +2148,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 26.67 115.57 0)
+			(at 194.31 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2027,8 +2156,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CONN HEADER SMD R/A 2POS 1.25MM"
-			(at 34.29 130.81 0)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 194.31 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2037,18 +2166,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "744a8542-32c7-4335-88e8-c6a966eac94c")
-		)
-		(pin "2"
-			(uuid "f23dba94-2e3a-43f9-bdb5-9eab3bd94457")
-		)
-		(pin "MP"
-			(uuid "e63d3e71-df98-402e-b0e9-846549f21ea6")
+			(uuid "7c7e3f44-2923-4b79-a15d-292e57be14f8")
 		)
 		(instances
-			(project ""
+			(project "Spa-Eau_Rouge"
 				(path "/c4971751-18ba-42c0-933f-7e935423e3d9"
-					(reference "J3")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -2056,16 +2179,16 @@
 	)
 	(symbol
 		(lib_id "power:SOLENOID-")
-		(at 255.27 123.19 0)
+		(at 194.31 97.79 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2a7e0bff-9922-4fba-9033-a8fdd299d30a")
-		(property "Reference" "#PWR08"
-			(at 255.27 129.54 0)
+		(uuid "2096a8d8-a633-4f7b-b48e-cbec53cbad10")
+		(property "Reference" "#PWR058"
+			(at 187.96 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2074,15 +2197,16 @@
 			)
 		)
 		(property "Value" "SOLENOID-"
-			(at 255.27 128.27 0)
+			(at 190.5 97.7899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 255.27 123.19 0)
+			(at 194.31 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2091,7 +2215,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 255.27 123.19 0)
+			(at 194.31 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2100,7 +2224,73 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"SOLENOID-\""
-			(at 255.27 123.19 0)
+			(at 194.31 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d4db0f3b-ef08-4559-8e67-c390e5fcd387")
+		)
+		(instances
+			(project "Spa-Eau_Rouge"
+				(path "/c4971751-18ba-42c0-933f-7e935423e3d9"
+					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:SOLENOID-")
+		(at 220.98 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a7e0bff-9922-4fba-9033-a8fdd299d30a")
+		(property "Reference" "#PWR08"
+			(at 220.98 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "SOLENOID-"
+			(at 220.98 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"SOLENOID-\""
+			(at 220.98 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2121,34 +2311,34 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 255.27 110.49 0)
+		(lib_id "Connector:Conn-1x03-2.54mm-RA_PH1RA-03-UA")
+		(at 201.93 118.11 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5a6010e2-1a59-4eb2-930e-cdccb073664b")
-		(property "Reference" "#PWR06"
-			(at 255.27 114.3 0)
+		(uuid "5760d18a-84ca-4c13-812f-7c845aaf3f37")
+		(property "Reference" "J5"
+			(at 198.12 110.236 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify right)
 			)
 		)
-		(property "Value" "+12V"
-			(at 255.27 105.41 0)
+		(property "Value" "PH1RA-03-UA"
+			(at 197.866 125.984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 255.27 110.49 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal"
+			(at 196.596 98.044 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2157,7 +2347,216 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 255.27 110.49 0)
+			(at 201.93 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CONN HEADER R/A 3POS 2.54MM"
+			(at 194.818 100.838 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4ea56489-15db-45a6-a8f2-2359aa2dc7b1")
+		)
+		(pin "2"
+			(uuid "2e73702a-15a0-4a88-8093-ef926bba98dc")
+		)
+		(pin "3"
+			(uuid "78438aba-8435-4a0a-8818-d282e0915ef5")
+		)
+		(instances
+			(project "Spa-Eau_Rouge"
+				(path "/c4971751-18ba-42c0-933f-7e935423e3d9"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 92.71 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "59220266-a1de-4ad9-aac5-f0a94ab7654a")
+		(property "Reference" "#PWR057"
+			(at 92.71 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 92.71 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 92.71 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8130e6c5-993b-4d7b-aaa2-afa04f1912b4")
+		)
+		(instances
+			(project "Spa-Eau_Rouge"
+				(path "/c4971751-18ba-42c0-933f-7e935423e3d9"
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn-1x03-2.54mm-RA_PH1RA-03-UA")
+		(at 201.93 139.7 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5a2a76c8-8269-45d7-a119-73a73fa07134")
+		(property "Reference" "J2"
+			(at 198.12 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PH1RA-03-UA"
+			(at 197.612 147.828 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal"
+			(at 196.596 119.634 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CONN HEADER R/A 3POS 2.54MM"
+			(at 194.818 122.428 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3293444b-b5c3-48a9-986c-8ff23c98f272")
+		)
+		(pin "2"
+			(uuid "25061dbc-70c2-449b-a9ec-47db87193a8b")
+		)
+		(pin "3"
+			(uuid "7f6a87e1-5897-4586-ba3d-2f8695bc17f9")
+		)
+		(instances
+			(project "Spa-Eau_Rouge"
+				(path "/c4971751-18ba-42c0-933f-7e935423e3d9"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 220.98 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a6010e2-1a59-4eb2-930e-cdccb073664b")
+		(property "Reference" "#PWR06"
+			(at 220.98 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 220.98 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2166,7 +2565,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 255.27 110.49 0)
+			(at 220.98 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2253,34 +2652,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn-1x03-2.54mm-RA_PH1RA-03-UA")
-		(at 151.13 93.98 0)
+		(lib_id "Connector:JST-GH_SM05B-GHS-TB")
+		(at 44.45 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "6278448f-353c-4cc5-b131-457d71e6fc77")
-		(property "Reference" "J2"
-			(at 153.162 86.106 0)
+		(fields_autoplaced yes)
+		(uuid "611f2f9d-fb80-4177-b387-b7f0715f47d5")
+		(property "Reference" "J3"
+			(at 46.355 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "PH1RA-03-UA"
-			(at 165.354 101.854 0)
+		(property "Value" "SM05B-GHS-TB"
+			(at 46.355 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal"
-			(at 156.464 114.046 0)
+		(property "Footprint" "Connector_JST:JST_GH_SM05B-GHS-TB_1x05-1MP_P1.25mm_Horizontal"
+			(at 50.546 144.272 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2289,7 +2687,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 91.44 0)
+			(at 44.45 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2297,28 +2695,37 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CONN HEADER R/A 3POS 2.54MM"
-			(at 158.242 111.252 0)
+		(property "Description" "CONN HEADER SMD R/A 5POS 1.25MM"
+			(at 52.324 141.478 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "1ace1595-191f-490b-ba8a-b586ffcb9521")
-		)
-		(pin "2"
-			(uuid "20baf0a1-cc29-43c8-a303-77353218787d")
 		)
 		(pin "3"
-			(uuid "71a11d11-188a-42c6-bff1-c625477a4be6")
+			(uuid "be15f466-f030-4d20-923f-0621cfd33d84")
+		)
+		(pin "4"
+			(uuid "ecfc6aaa-ff59-4f39-8607-a5e5012ec0d8")
+		)
+		(pin "2"
+			(uuid "b7ce1741-16dc-4540-9fae-254a43867d50")
+		)
+		(pin "1"
+			(uuid "73243214-68cd-45bf-9da6-505837798bbe")
+		)
+		(pin "5"
+			(uuid "3530f9b3-afd7-44bf-beab-05ba0af5f2c7")
+		)
+		(pin "MP"
+			(uuid "6f151293-2cdc-4604-86a4-a9299be3f4e4")
 		)
 		(instances
-			(project "Spa-Eau_Rouge"
+			(project ""
 				(path "/c4971751-18ba-42c0-933f-7e935423e3d9"
-					(reference "J2")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -2390,7 +2797,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 133.35 59.69 0)
+		(at 137.16 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2399,7 +2806,7 @@
 		(fields_autoplaced yes)
 		(uuid "7851176d-511b-47c8-8812-6409581f5e09")
 		(property "Reference" "#PWR02"
-			(at 133.35 63.5 0)
+			(at 137.16 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2408,7 +2815,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 133.35 54.61 0)
+			(at 137.16 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2416,7 +2823,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 133.35 59.69 0)
+			(at 137.16 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2425,7 +2832,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 59.69 0)
+			(at 137.16 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2434,7 +2841,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 133.35 59.69 0)
+			(at 137.16 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2456,16 +2863,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 171.45 101.6 0)
+		(at 195.58 135.89 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8367e479-d2aa-4e45-aeef-7dffc62f6753")
 		(property "Reference" "#PWR05"
-			(at 171.45 107.95 0)
+			(at 189.23 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2474,7 +2880,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 171.45 106.68 0)
+			(at 190.5 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2482,7 +2888,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 171.45 101.6 0)
+			(at 195.58 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2491,7 +2897,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 101.6 0)
+			(at 195.58 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2500,7 +2906,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 171.45 101.6 0)
+			(at 195.58 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2522,7 +2928,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 133.35 72.39 0)
+		(at 137.16 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2530,7 +2936,7 @@
 		(dnp no)
 		(uuid "852a9774-e205-463d-babe-b6cfc0a3d1e8")
 		(property "Reference" "#PWR04"
-			(at 133.35 76.2 0)
+			(at 137.16 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2539,7 +2945,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 133.35 67.31 0)
+			(at 137.16 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2547,7 +2953,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 133.35 72.39 0)
+			(at 137.16 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2556,7 +2962,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 72.39 0)
+			(at 137.16 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2565,7 +2971,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 133.35 72.39 0)
+			(at 137.16 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2644,6 +3050,71 @@
 			(project ""
 				(path "/c4971751-18ba-42c0-933f-7e935423e3d9"
 					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 195.58 114.3 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9d5ad8ca-4fe0-451e-ba34-d76abf5cf831")
+		(property "Reference" "#PWR061"
+			(at 189.23 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 190.754 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.58 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 195.58 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c19c5b48-7a56-474c-924d-9ba3127bec6c")
+		)
+		(instances
+			(project "Spa-Eau_Rouge"
+				(path "/c4971751-18ba-42c0-933f-7e935423e3d9"
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -2782,7 +3253,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02_1985807")
-		(at 273.05 118.11 180)
+		(at 199.39 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2790,7 +3261,7 @@
 		(dnp no)
 		(uuid "d17164b2-ae57-47ad-95e4-16d48d018edb")
 		(property "Reference" "J4"
-			(at 273.812 113.03 0)
+			(at 197.866 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2799,7 +3270,7 @@
 			)
 		)
 		(property "Value" "1985807"
-			(at 279.908 121.158 0)
+			(at 197.866 103.124 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2808,7 +3279,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P3.50mm_Horizontal_1985807"
-			(at 271.78 104.14 0)
+			(at 200.66 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2817,7 +3288,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 273.05 118.11 0)
+			(at 199.39 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2826,7 +3297,7 @@
 			)
 		)
 		(property "Description" "TERM BLK 2POS SIDE ENT 3.5MM PCB"
-			(at 272.288 107.442 0)
+			(at 200.152 108.458 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2844,6 +3315,71 @@
 			(project "Spa-Eau_Rouge"
 				(path "/c4971751-18ba-42c0-933f-7e935423e3d9"
 					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 195.58 118.11 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f75bdec5-afa8-4b7c-b594-d681d89f42b6")
+		(property "Reference" "#PWR062"
+			(at 199.39 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 190.754 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.58 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 195.58 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f4180d08-cabc-4465-a052-62775ad94512")
+		)
+		(instances
+			(project "Spa-Eau_Rouge"
+				(path "/c4971751-18ba-42c0-933f-7e935423e3d9"
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -2914,7 +3450,7 @@
 		)
 	)
 	(sheet
-		(at 190.5 110.49)
+		(at 158.75 57.15)
 		(size 53.34 11.43)
 		(fields_autoplaced yes)
 		(stroke
@@ -2926,7 +3462,7 @@
 		)
 		(uuid "09553296-4412-4340-b738-04baff363726")
 		(property "Sheetname" "Solenoid Driver"
-			(at 190.5 109.7784 0)
+			(at 158.75 56.4384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2935,7 +3471,7 @@
 			)
 		)
 		(property "Sheetfile" "SolenoidDriver.kicad_sch"
-			(at 190.5 122.5046 0)
+			(at 158.75 69.1646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2944,7 +3480,7 @@
 			)
 		)
 		(pin "SOLENOID_DRIVE" input
-			(at 190.5 119.38 180)
+			(at 158.75 66.04 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2954,7 +3490,7 @@
 			(uuid "0ee20804-c623-479c-bafa-1d261663fba4")
 		)
 		(pin "SOLENOID-" output
-			(at 243.84 119.38 0)
+			(at 212.09 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2964,7 +3500,7 @@
 			(uuid "20719f18-6485-44b1-8117-aee04af5c568")
 		)
 		(pin "SOLENOID+" output
-			(at 243.84 114.3 0)
+			(at 212.09 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2974,7 +3510,7 @@
 			(uuid "0a29712e-3d48-4689-b3be-50df20c0e653")
 		)
 		(pin "12V" input
-			(at 190.5 114.3 180)
+			(at 158.75 60.96 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3031,7 +3567,7 @@
 			(uuid "99d04aaa-9a96-4382-b79d-458235ba47e5")
 		)
 		(pin "5V" output
-			(at 121.92 72.39 0)
+			(at 121.92 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3060,7 +3596,7 @@
 	)
 	(sheet
 		(at 68.58 110.49)
-		(size 53.34 12.7)
+		(size 53.34 24.13)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -3080,7 +3616,7 @@
 			)
 		)
 		(property "Sheetfile" "MCU.kicad_sch"
-			(at 68.58 123.7746 0)
+			(at 68.58 135.2046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3088,7 +3624,7 @@
 				(justify left top)
 			)
 		)
-		(pin "PAYLOAD_RELEASE_TRIGGER" input
+		(pin "DJI_PWM1" input
 			(at 68.58 114.3 180)
 			(effects
 				(font
@@ -3098,7 +3634,7 @@
 			)
 			(uuid "ed3e7a63-c74d-4edd-b6e7-d309a88a1680")
 		)
-		(pin "BUFF_SERVO_PWM" output
+		(pin "BUFF_SERVO_PWM1" output
 			(at 121.92 114.3 0)
 			(effects
 				(font
@@ -3109,7 +3645,7 @@
 			(uuid "6481c6c8-ad2e-4bd2-b925-ff8a03d6c963")
 		)
 		(pin "SOLENOID_DRIVE" output
-			(at 121.92 119.38 0)
+			(at 121.92 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3117,6 +3653,56 @@
 				(justify right)
 			)
 			(uuid "1dc9db7b-ec0e-4dfa-a880-6150233284c4")
+		)
+		(pin "SCL" bidirectional
+			(at 68.58 125.73 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "464af657-c40b-4eda-984c-e603de0b69d5")
+		)
+		(pin "SDA" bidirectional
+			(at 68.58 121.92 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "dea3cf7e-719a-4442-9344-dc88c2d304d5")
+		)
+		(pin "BUFF_SERVO_PWM2" output
+			(at 121.92 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "de11f20e-fa1c-4e83-a634-f9800bcba157")
+		)
+		(pin "DJI_PWM2" input
+			(at 68.58 118.11 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5bc9c1f8-063c-464b-b334-f3fd46e59604")
+		)
+		(pin "5V" input
+			(at 92.71 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f51c2c7f-1389-4423-892c-662eedb4fe06")
 		)
 		(instances
 			(project "Spa-Eau_Rouge"

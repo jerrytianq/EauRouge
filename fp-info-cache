@@ -1,4 +1,4 @@
-23783459893039260
+23787034151645364
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -54866,6 +54866,13 @@ Diode MicroSMP (DO-219AD)
 2
 2
 Diode_SMD
+D_MicroSMP_AK_MSS1P3L-M3_89A
+Diode MicroSMP (DO-219AD), large-pad cathode, https://www.vishay.com/docs/89020/mss1p3l.pdf
+Diode MicroSMP (DO-219AD)
+0
+2
+2
+Diode_SMD
 D_MicroSMP_KA
 Diode MicroSMP (DO-219AD), large-pad anode, https://www.vishay.com/docs/89457/msmp6a.pdf
 Diode MicroSMP (DO-219AD)
@@ -79827,6 +79834,13 @@ SOIC 1.27
 0
 7
 7
+Package_SO
+SOIC-8-TPS259631DDAR
+SOIC, 8 Pin (http://www.allegromicro.com/~/media/Files/Datasheets/A4950-Datasheet.ashx#page=8), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOIC SO
+0
+13
+9
 Package_SO
 SOIC-8W_5.3x5.3mm_P1.27mm
 8-Lead Plastic Small Outline (SM) - 5.28 mm Body [SOIC] (http://ww1.microchip.com/downloads/en/PackagingSpec/00000049BQ.pdf)
