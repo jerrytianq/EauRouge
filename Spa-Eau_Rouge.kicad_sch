@@ -1519,14 +1519,24 @@
 		(uuid "b0a0bda6-4af6-4881-a18b-b62c58109d39")
 	)
 	(junction
-		(at 63.5 133.35)
+		(at 62.23 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ed8751c7-0607-4094-8b89-c310d55758dd")
 	)
 	(wire
 		(pts
-			(xy 52.07 133.35) (xy 63.5 133.35)
+			(xy 95.25 74.93) (xy 95.25 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0494ce9c-42f5-408a-9d9f-db699904693c")
+	)
+	(wire
+		(pts
+			(xy 50.8 111.76) (xy 62.23 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1546,7 +1556,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 121.92) (xy 68.58 121.92)
+			(xy 50.8 100.33) (xy 67.31 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1556,7 +1566,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 129.54) (xy 148.59 66.04)
+			(xy 147.32 107.95) (xy 147.32 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1576,7 +1586,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 107.95) (xy 92.71 110.49)
+			(xy 82.55 87.63) (xy 82.55 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1616,7 +1626,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 114.3) (xy 121.92 114.3)
+			(xy 143.51 92.71) (xy 120.65 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1626,7 +1636,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 120.65) (xy 144.78 120.65)
+			(xy 120.65 99.06) (xy 143.51 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1646,7 +1656,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 129.54) (xy 63.5 133.35)
+			(xy 62.23 107.95) (xy 62.23 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1676,7 +1686,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 66.04) (xy 158.75 66.04)
+			(xy 147.32 66.04) (xy 158.75 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1706,7 +1716,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 125.73) (xy 68.58 125.73)
+			(xy 50.8 104.14) (xy 67.31 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1726,23 +1736,13 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 114.3) (xy 68.58 114.3)
+			(xy 50.8 92.71) (xy 67.31 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "aedf2b96-68eb-4edc-a3d0-76f1b8eb39ce")
-	)
-	(wire
-		(pts
-			(xy 172.72 143.51) (xy 195.58 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5e1fad2-207f-4dbc-816f-fcd0d189ada4")
 	)
 	(wire
 		(pts
@@ -1756,7 +1756,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 129.54) (xy 121.92 129.54)
+			(xy 147.32 107.95) (xy 120.65 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1766,7 +1766,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 129.54) (xy 63.5 129.54)
+			(xy 50.8 107.95) (xy 62.23 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1776,7 +1776,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 133.35) (xy 63.5 134.62)
+			(xy 62.23 111.76) (xy 62.23 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1786,7 +1786,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 121.92) (xy 195.58 121.92)
+			(xy 170.18 109.22) (xy 193.04 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1796,7 +1796,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 118.11) (xy 68.58 118.11)
+			(xy 50.8 96.52) (xy 67.31 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1814,8 +1814,18 @@
 		)
 		(uuid "f217b911-2d1d-4dab-a884-e9b167979c01")
 	)
+	(wire
+		(pts
+			(xy 170.18 129.54) (xy 193.04 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5f28554-548e-4c47-829b-a6c4e04239a2")
+	)
 	(label "SDA"
-		(at 58.42 121.92 0)
+		(at 57.15 100.33 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1826,7 +1836,7 @@
 		(uuid "024b827b-ac42-4d6b-8004-252631fc0787")
 	)
 	(label "BUFF_SERVO_PWM1"
-		(at 124.46 114.3 0)
+		(at 123.19 92.71 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1837,7 +1847,7 @@
 		(uuid "0fbf11dd-e18e-4015-a4e3-4bd099bac1b1")
 	)
 	(label "DJI_PWM2"
-		(at 55.88 118.11 0)
+		(at 54.61 96.52 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1848,7 +1858,7 @@
 		(uuid "114b97c1-2b02-4dfb-9ee1-6ea5ade6154a")
 	)
 	(label "BUFF_SERVO_PWM1"
-		(at 175.26 121.92 0)
+		(at 172.72 109.22 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1859,7 +1869,7 @@
 		(uuid "3932e417-1401-4c5a-98a8-abe089d996bb")
 	)
 	(label "DJI_PWM1"
-		(at 55.88 114.3 0)
+		(at 54.61 92.71 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1870,7 +1880,7 @@
 		(uuid "40fd8cfd-0c28-46df-bd2a-adc2eec1d80b")
 	)
 	(label "SCL"
-		(at 58.42 125.73 0)
+		(at 57.15 104.14 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1881,7 +1891,7 @@
 		(uuid "8556982c-a245-4aee-941f-4a79d0fe244f")
 	)
 	(label "BUFF_SERVO_PWM2"
-		(at 124.46 120.65 0)
+		(at 123.19 99.06 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1892,7 +1902,7 @@
 		(uuid "bf35ff0d-19e8-4064-9a4c-1526a702845a")
 	)
 	(label "SOLENOID_DRIVE"
-		(at 125.73 129.54 0)
+		(at 124.46 107.95 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1903,15 +1913,15 @@
 		(uuid "d4734df7-1d27-4e49-b275-f5968ed537ef")
 	)
 	(label "BUFF_SERVO_PWM2"
-		(at 193.04 143.51 180)
+		(at 172.72 129.54 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "f0d0f5b8-9ba1-4414-a19d-cec94f89e2a9")
+		(uuid "dc9fce33-ef8a-4f00-936a-30a300493ce7")
 	)
 	(symbol
 		(lib_id "power:+BATT")
@@ -1980,82 +1990,16 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 195.58 139.7 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0889f620-0b15-4d25-abe4-453e55bb1027")
-		(property "Reference" "#PWR060"
-			(at 199.39 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 190.754 139.7 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 195.58 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 195.58 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 195.58 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "548ffc6e-c03b-4035-acc3-5c01ecd287f4")
-		)
-		(instances
-			(project "Spa-Eau_Rouge"
-				(path "/c4971751-18ba-42c0-933f-7e935423e3d9"
-					(reference "#PWR060")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 63.5 134.62 0)
+		(at 193.04 137.16 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0e36ac7f-c495-449f-9382-38e4e5088ba7")
-		(property "Reference" "#PWR07"
-			(at 63.5 140.97 0)
+		(uuid "0b368cc9-b2c4-4b27-93a6-29be47960cbd")
+		(property "Reference" "#PWR014"
+			(at 186.69 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2064,7 +2008,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 63.5 139.7 0)
+			(at 188.214 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2072,7 +2016,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 134.62 0)
+			(at 193.04 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2081,7 +2025,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 134.62 0)
+			(at 193.04 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2090,7 +2034,140 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 63.5 134.62 0)
+			(at 193.04 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c02863ac-14b9-4545-849c-2ebf93309c6d")
+		)
+		(instances
+			(project "Spa-Eau_Rouge"
+				(path "/c4971751-18ba-42c0-933f-7e935423e3d9"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:SOLENOID-")
+		(at 191.77 97.79 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0cc8556b-d801-4e9f-b28a-c29a3a52c966")
+		(property "Reference" "#PWR08"
+			(at 185.42 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "SOLENOID-"
+			(at 187.96 97.7899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"SOLENOID-\""
+			(at 191.77 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d7962362-0909-4016-aab8-5e476d5ab425")
+		)
+		(instances
+			(project "Spa-Eau_Rouge"
+				(path "/c4971751-18ba-42c0-933f-7e935423e3d9"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 62.23 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e36ac7f-c495-449f-9382-38e4e5088ba7")
+		(property "Reference" "#PWR010"
+			(at 62.23 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 62.23 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 62.23 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2104,7 +2181,7 @@
 		(instances
 			(project "Spa-Eau_Rouge"
 				(path "/c4971751-18ba-42c0-933f-7e935423e3d9"
-					(reference "#PWR07")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -2112,16 +2189,16 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 194.31 100.33 90)
+		(at 191.77 95.25 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1a29a5f5-294f-43ac-a331-25af0d6890be")
-		(property "Reference" "#PWR059"
-			(at 198.12 100.33 0)
+		(uuid "250bc9b8-25dc-41b3-8d6d-4f2080ef4f0a")
+		(property "Reference" "#PWR09"
+			(at 195.58 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2130,7 +2207,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 190.5 100.3299 90)
+			(at 187.96 95.2499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2139,7 +2216,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 194.31 100.33 0)
+			(at 191.77 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2148,7 +2225,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 194.31 100.33 0)
+			(at 191.77 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2157,7 +2234,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 194.31 100.33 0)
+			(at 191.77 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2166,79 +2243,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "7c7e3f44-2923-4b79-a15d-292e57be14f8")
+			(uuid "9942df70-a76d-4522-a55b-9da33b0f384a")
 		)
 		(instances
 			(project "Spa-Eau_Rouge"
 				(path "/c4971751-18ba-42c0-933f-7e935423e3d9"
-					(reference "#PWR059")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:SOLENOID-")
-		(at 194.31 97.79 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2096a8d8-a633-4f7b-b48e-cbec53cbad10")
-		(property "Reference" "#PWR058"
-			(at 187.96 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "SOLENOID-"
-			(at 190.5 97.7899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 194.31 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 194.31 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"SOLENOID-\""
-			(at 194.31 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d4db0f3b-ef08-4559-8e67-c390e5fcd387")
-		)
-		(instances
-			(project "Spa-Eau_Rouge"
-				(path "/c4971751-18ba-42c0-933f-7e935423e3d9"
-					(reference "#PWR058")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -2254,7 +2264,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a7e0bff-9922-4fba-9033-a8fdd299d30a")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR06"
 			(at 220.98 77.47 0)
 			(effects
 				(font
@@ -2304,7 +2314,7 @@
 		(instances
 			(project "Spa-Eau_Rouge"
 				(path "/c4971751-18ba-42c0-933f-7e935423e3d9"
-					(reference "#PWR08")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -2312,15 +2322,16 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn-1x03-2.54mm-RA_PH1RA-03-UA")
-		(at 201.93 118.11 180)
+		(at 199.39 113.03 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "5760d18a-84ca-4c13-812f-7c845aaf3f37")
-		(property "Reference" "J5"
-			(at 198.12 110.236 0)
+		(property "Reference" "J4"
+			(at 195.072 105.156 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2329,7 +2340,7 @@
 			)
 		)
 		(property "Value" "PH1RA-03-UA"
-			(at 197.866 125.984 0)
+			(at 195.326 120.904 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2338,7 +2349,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal"
-			(at 196.596 98.044 0)
+			(at 194.056 133.096 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2347,7 +2358,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 120.65 0)
+			(at 199.39 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2356,7 +2367,7 @@
 			)
 		)
 		(property "Description" "CONN HEADER R/A 3POS 2.54MM"
-			(at 194.818 100.838 0)
+			(at 192.278 130.302 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2376,7 +2387,7 @@
 		(instances
 			(project "Spa-Eau_Rouge"
 				(path "/c4971751-18ba-42c0-933f-7e935423e3d9"
-					(reference "J5")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -2384,15 +2395,15 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 92.71 107.95 0)
+		(at 82.55 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "59220266-a1de-4ad9-aac5-f0a94ab7654a")
-		(property "Reference" "#PWR057"
-			(at 92.71 111.76 0)
+		(property "Reference" "#PWR07"
+			(at 82.55 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2401,7 +2412,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 92.71 102.87 0)
+			(at 82.55 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2409,7 +2420,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 92.71 107.95 0)
+			(at 82.55 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2418,7 +2429,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 107.95 0)
+			(at 82.55 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2427,7 +2438,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 92.71 107.95 0)
+			(at 82.55 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2441,79 +2452,7 @@
 		(instances
 			(project "Spa-Eau_Rouge"
 				(path "/c4971751-18ba-42c0-933f-7e935423e3d9"
-					(reference "#PWR057")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn-1x03-2.54mm-RA_PH1RA-03-UA")
-		(at 201.93 139.7 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5a2a76c8-8269-45d7-a119-73a73fa07134")
-		(property "Reference" "J2"
-			(at 198.12 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "PH1RA-03-UA"
-			(at 197.612 147.828 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal"
-			(at 196.596 119.634 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 201.93 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CONN HEADER R/A 3POS 2.54MM"
-			(at 194.818 122.428 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3293444b-b5c3-48a9-986c-8ff23c98f272")
-		)
-		(pin "2"
-			(uuid "25061dbc-70c2-449b-a9ec-47db87193a8b")
-		)
-		(pin "3"
-			(uuid "7f6a87e1-5897-4586-ba3d-2f8695bc17f9")
-		)
-		(instances
-			(project "Spa-Eau_Rouge"
-				(path "/c4971751-18ba-42c0-933f-7e935423e3d9"
-					(reference "J2")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -2529,7 +2468,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5a6010e2-1a59-4eb2-930e-cdccb073664b")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR02"
 			(at 220.98 60.96 0)
 			(effects
 				(font
@@ -2579,7 +2518,7 @@
 		(instances
 			(project "Spa-Eau_Rouge"
 				(path "/c4971751-18ba-42c0-933f-7e935423e3d9"
-					(reference "#PWR06")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -2595,7 +2534,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5df817ee-38dc-4291-be39-eaa559156509")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR05"
 			(at 45.72 66.04 0)
 			(effects
 				(font
@@ -2645,7 +2584,7 @@
 		(instances
 			(project ""
 				(path "/c4971751-18ba-42c0-933f-7e935423e3d9"
-					(reference "#PWR03")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -2653,7 +2592,7 @@
 	)
 	(symbol
 		(lib_id "Connector:JST-GH_SM05B-GHS-TB")
-		(at 44.45 115.57 0)
+		(at 43.18 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2661,8 +2600,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "611f2f9d-fb80-4177-b387-b7f0715f47d5")
-		(property "Reference" "J3"
-			(at 46.355 106.68 0)
+		(property "Reference" "J2"
+			(at 45.085 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2670,7 +2609,7 @@
 			)
 		)
 		(property "Value" "SM05B-GHS-TB"
-			(at 46.355 109.22 0)
+			(at 45.085 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2678,7 +2617,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_GH_SM05B-GHS-TB_1x05-1MP_P1.25mm_Horizontal"
-			(at 50.546 144.272 0)
+			(at 49.276 122.682 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2687,7 +2626,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 115.57 0)
+			(at 43.18 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2696,7 +2635,7 @@
 			)
 		)
 		(property "Description" "CONN HEADER SMD R/A 5POS 1.25MM"
-			(at 52.324 141.478 0)
+			(at 51.054 119.888 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2725,7 +2664,7 @@
 		(instances
 			(project ""
 				(path "/c4971751-18ba-42c0-933f-7e935423e3d9"
-					(reference "J3")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -2796,6 +2735,79 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn-1x03-2.54mm-RA_PH1RA-03-UA")
+		(at 199.39 133.35 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "71fb26df-5070-4462-9da3-0f3588dfb040")
+		(property "Reference" "J5"
+			(at 195.072 125.476 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PH1RA-03-UA"
+			(at 195.326 141.224 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal"
+			(at 194.056 153.416 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CONN HEADER R/A 3POS 2.54MM"
+			(at 192.278 150.622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "72bb1cde-4c5b-476e-bf6c-cd76886b5d6d")
+		)
+		(pin "2"
+			(uuid "22bddb6a-b796-4c49-b65e-c215b507c951")
+		)
+		(pin "3"
+			(uuid "1e2c50ee-333f-4d4d-b012-99e1cb30f388")
+		)
+		(instances
+			(project "Spa-Eau_Rouge"
+				(path "/c4971751-18ba-42c0-933f-7e935423e3d9"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+12V")
 		(at 137.16 59.69 0)
 		(unit 1)
@@ -2805,7 +2817,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7851176d-511b-47c8-8812-6409581f5e09")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR03"
 			(at 137.16 63.5 0)
 			(effects
 				(font
@@ -2855,72 +2867,7 @@
 		(instances
 			(project "Spa-Eau_Rouge"
 				(path "/c4971751-18ba-42c0-933f-7e935423e3d9"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 195.58 135.89 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8367e479-d2aa-4e45-aeef-7dffc62f6753")
-		(property "Reference" "#PWR05"
-			(at 189.23 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 190.5 135.89 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 195.58 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 195.58 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 195.58 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2294022f-f736-4ddb-8e4a-260d156b0065")
-		)
-		(instances
-			(project "Spa-Eau_Rouge"
-				(path "/c4971751-18ba-42c0-933f-7e935423e3d9"
-					(reference "#PWR05")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -3057,15 +3004,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 195.58 114.3 270)
+		(at 193.04 116.84 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "9d5ad8ca-4fe0-451e-ba34-d76abf5cf831")
-		(property "Reference" "#PWR061"
-			(at 189.23 114.3 0)
+		(property "Reference" "#PWR012"
+			(at 186.69 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3074,7 +3021,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 190.754 114.3 90)
+			(at 188.214 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3082,7 +3029,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 195.58 114.3 0)
+			(at 193.04 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3091,7 +3038,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 195.58 114.3 0)
+			(at 193.04 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3100,7 +3047,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 195.58 114.3 0)
+			(at 193.04 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3114,7 +3061,7 @@
 		(instances
 			(project "Spa-Eau_Rouge"
 				(path "/c4971751-18ba-42c0-933f-7e935423e3d9"
-					(reference "#PWR061")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -3253,15 +3200,15 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02_1985807")
-		(at 199.39 97.79 0)
+		(at 196.85 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "d17164b2-ae57-47ad-95e4-16d48d018edb")
-		(property "Reference" "J4"
-			(at 197.866 95.25 0)
+		(property "Reference" "J3"
+			(at 195.326 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3270,7 +3217,7 @@
 			)
 		)
 		(property "Value" "1985807"
-			(at 197.866 103.124 0)
+			(at 195.326 100.584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3279,7 +3226,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P3.50mm_Horizontal_1985807"
-			(at 200.66 111.76 0)
+			(at 198.12 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3288,7 +3235,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 199.39 97.79 0)
+			(at 196.85 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3297,7 +3244,7 @@
 			)
 		)
 		(property "Description" "TERM BLK 2POS SIDE ENT 3.5MM PCB"
-			(at 200.152 108.458 0)
+			(at 197.612 105.918 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3314,7 +3261,7 @@
 		(instances
 			(project "Spa-Eau_Rouge"
 				(path "/c4971751-18ba-42c0-933f-7e935423e3d9"
-					(reference "J4")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -3322,15 +3269,15 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 195.58 118.11 90)
+		(at 193.04 133.35 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "f75bdec5-afa8-4b7c-b594-d681d89f42b6")
-		(property "Reference" "#PWR062"
-			(at 199.39 118.11 0)
+		(uuid "d730fed9-0c30-47d4-ad5d-00dbd88aa001")
+		(property "Reference" "#PWR013"
+			(at 196.85 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3339,7 +3286,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 190.754 118.11 90)
+			(at 188.214 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3347,7 +3294,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 195.58 118.11 0)
+			(at 193.04 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3356,7 +3303,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 195.58 118.11 0)
+			(at 193.04 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3365,7 +3312,72 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 195.58 118.11 0)
+			(at 193.04 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b88fa383-bc22-4ed6-9205-516e496a4357")
+		)
+		(instances
+			(project "Spa-Eau_Rouge"
+				(path "/c4971751-18ba-42c0-933f-7e935423e3d9"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 193.04 113.03 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f75bdec5-afa8-4b7c-b594-d681d89f42b6")
+		(property "Reference" "#PWR011"
+			(at 196.85 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 188.214 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 193.04 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3379,7 +3391,7 @@
 		(instances
 			(project "Spa-Eau_Rouge"
 				(path "/c4971751-18ba-42c0-933f-7e935423e3d9"
-					(reference "#PWR062")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -3586,6 +3598,16 @@
 			)
 			(uuid "723be476-4e0d-4ec7-a601-1ea0804fde80")
 		)
+		(pin "VIN_LED" input
+			(at 95.25 74.93 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fba40634-f4b1-452b-8923-4d2a289467cd")
+		)
 		(instances
 			(project "Spa-Eau_Rouge"
 				(path "/c4971751-18ba-42c0-933f-7e935423e3d9"
@@ -3595,7 +3617,7 @@
 		)
 	)
 	(sheet
-		(at 68.58 110.49)
+		(at 67.31 88.9)
 		(size 53.34 24.13)
 		(fields_autoplaced yes)
 		(stroke
@@ -3607,7 +3629,7 @@
 		)
 		(uuid "c917e16d-f0ac-4e75-a6ca-53a802df9d55")
 		(property "Sheetname" "MCU"
-			(at 68.58 109.7784 0)
+			(at 67.31 88.1884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3616,7 +3638,7 @@
 			)
 		)
 		(property "Sheetfile" "MCU.kicad_sch"
-			(at 68.58 135.2046 0)
+			(at 67.31 113.6146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3625,7 +3647,7 @@
 			)
 		)
 		(pin "DJI_PWM1" input
-			(at 68.58 114.3 180)
+			(at 67.31 92.71 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3635,7 +3657,7 @@
 			(uuid "ed3e7a63-c74d-4edd-b6e7-d309a88a1680")
 		)
 		(pin "BUFF_SERVO_PWM1" output
-			(at 121.92 114.3 0)
+			(at 120.65 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3645,7 +3667,7 @@
 			(uuid "6481c6c8-ad2e-4bd2-b925-ff8a03d6c963")
 		)
 		(pin "SOLENOID_DRIVE" output
-			(at 121.92 129.54 0)
+			(at 120.65 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3655,7 +3677,7 @@
 			(uuid "1dc9db7b-ec0e-4dfa-a880-6150233284c4")
 		)
 		(pin "SCL" bidirectional
-			(at 68.58 125.73 180)
+			(at 67.31 104.14 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3665,7 +3687,7 @@
 			(uuid "464af657-c40b-4eda-984c-e603de0b69d5")
 		)
 		(pin "SDA" bidirectional
-			(at 68.58 121.92 180)
+			(at 67.31 100.33 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3675,7 +3697,7 @@
 			(uuid "dea3cf7e-719a-4442-9344-dc88c2d304d5")
 		)
 		(pin "BUFF_SERVO_PWM2" output
-			(at 121.92 120.65 0)
+			(at 120.65 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3685,7 +3707,7 @@
 			(uuid "de11f20e-fa1c-4e83-a634-f9800bcba157")
 		)
 		(pin "DJI_PWM2" input
-			(at 68.58 118.11 180)
+			(at 67.31 96.52 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3695,7 +3717,7 @@
 			(uuid "5bc9c1f8-063c-464b-b334-f3fd46e59604")
 		)
 		(pin "5V" input
-			(at 92.71 110.49 90)
+			(at 82.55 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3703,6 +3725,16 @@
 				(justify right)
 			)
 			(uuid "f51c2c7f-1389-4423-892c-662eedb4fe06")
+		)
+		(pin "VIN_LED" output
+			(at 95.25 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "767a1e3c-d74b-45bc-b315-43b31e3a0b3f")
 		)
 		(instances
 			(project "Spa-Eau_Rouge"

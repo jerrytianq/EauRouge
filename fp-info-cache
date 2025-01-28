@@ -1,4 +1,4 @@
-23787034151645364
+23794002437554259
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -77805,6 +77805,13 @@ lga land grid array
 12
 12
 Package_LGA
+LGA-12_LIS2HH12TR
+LGA12
+lga land grid array
+0
+12
+12
+Package_LGA
 LGA-14_2x2mm_P0.35mm_LayoutBorder3x4y
 LGA, 14 Pin (http://www.st.com/resource/en/datasheet/lis2dh.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
 LGA NoLead
@@ -77905,6 +77912,13 @@ ST HLGA NoLead
 Package_LGA
 ST_HLGA-10_2x2mm_P0.5mm_LayoutBorder3x2y
 ST  HLGA, 10 Pin (https://www.st.com/resource/en/datasheet/lps22hh.pdf#page=55), generated with kicad-footprint-generator ipc_noLead_generator.py
+ST HLGA NoLead
+0
+10
+10
+Package_LGA
+ST_HLGA-10_LPS22HHTR
+ST  HLGA, 10 Pin (https://www.st.com/resource/en/datasheet/lps25hb.pdf#page=46), generated with kicad-footprint-generator ipc_noLead_generator.py
 ST HLGA NoLead
 0
 10
@@ -88115,6 +88129,20 @@ SMD Shunt Resistor
 0
 4
 2
+Resistor_SMD
+YC158TJR-074K7L
+
+
+0
+10
+10
+Resistor_SMD
+YC164-JR-074K7L
+
+
+0
+8
+8
 Resistor_THT
 R_Array_SIP4
 4-pin Resistor SIP pack
