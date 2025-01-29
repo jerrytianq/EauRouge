@@ -3532,7 +3532,7 @@
 			(uuid "5dca8a4d-bcbd-4db2-ab6b-5ce7de0da683")
 		)
 		(instances
-			(project "Spa-Eau_Rouge"
+			(project "EauRouge"
 				(path "/c4971751-18ba-42c0-933f-7e935423e3d9"
 					(page "4")
 				)
@@ -3609,7 +3609,7 @@
 			(uuid "fba40634-f4b1-452b-8923-4d2a289467cd")
 		)
 		(instances
-			(project "Spa-Eau_Rouge"
+			(project "EauRouge"
 				(path "/c4971751-18ba-42c0-933f-7e935423e3d9"
 					(page "3")
 				)
@@ -3737,7 +3737,7 @@
 			(uuid "767a1e3c-d74b-45bc-b315-43b31e3a0b3f")
 		)
 		(instances
-			(project "Spa-Eau_Rouge"
+			(project "EauRouge"
 				(path "/c4971751-18ba-42c0-933f-7e935423e3d9"
 					(page "2")
 				)
