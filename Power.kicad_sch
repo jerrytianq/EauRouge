@@ -7095,7 +7095,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "33f84fc9-b290-492d-84c6-989d37d0240a")
 		(property "Reference" "R17"
@@ -7613,7 +7613,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "4c253a8c-9a16-4d16-ad24-313683ae4ead")
 		(property "Reference" "C15"
@@ -10507,7 +10507,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ERJ-P06J112V"
+		(property "Value" "ERJ-P06J431V"
 			(at 123.698 204.978 0)
 			(effects
 				(font
