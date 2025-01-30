@@ -4,6 +4,11 @@
 	(generator_version "8.0")
 	(uuid "6d33a6cf-b1bc-499a-ba86-71e444fc0db0")
 	(paper "A4")
+	(title_block
+		(title "EauRouge")
+		(date "2025-01-29")
+		(rev "1")
+	)
 	(lib_symbols
 		(symbol "Diode:STPS2H100ZF"
 			(pin_numbers hide)

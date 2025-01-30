@@ -4,6 +4,11 @@
 	(generator_version "8.0")
 	(uuid "3a98378d-db79-42ec-b8a2-bb2313e84f63")
 	(paper "A4")
+	(title_block
+		(title "EauRouge")
+		(date "2025-01-29")
+		(rev "1")
+	)
 	(lib_symbols
 		(symbol "Capacitor_Polarized:865080642006"
 			(pin_numbers hide)

@@ -4,6 +4,11 @@
 	(generator_version "8.0")
 	(uuid "a7157223-8700-43a5-bc0a-79ff1dd015ff")
 	(paper "A4")
+	(title_block
+		(title "EauRouge")
+		(date "2025-01-29")
+		(rev "1")
+	)
 	(lib_symbols
 		(symbol "74xGxx:SN74LVC2G17DBVR"
 			(exclude_from_sim no)

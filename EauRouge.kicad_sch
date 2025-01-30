@@ -4,6 +4,11 @@
 	(generator_version "8.0")
 	(uuid "c4971751-18ba-42c0-933f-7e935423e3d9")
 	(paper "A4")
+	(title_block
+		(title "EauRouge")
+		(date "2025-01-29")
+		(rev "1")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn-1x03-2.54mm-RA_PH1RA-03-UA"
 			(exclude_from_sim no)
