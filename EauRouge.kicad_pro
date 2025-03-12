@@ -497,7 +497,7 @@
       "plot": "EauRougeGerber/",
       "pos_files": "Manufacturing/",
       "specctra_dsn": "",
-      "step": "",
+      "step": "Manufacturing/EauRouge.step",
       "svg": "",
       "vrml": ""
     },
