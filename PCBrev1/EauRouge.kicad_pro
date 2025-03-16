@@ -604,8 +604,20 @@
   },
   "sheets": [
     [
-      "436256f7-f1ed-4a9c-8f59-68dc2aacf5b8",
-      ""
+      "c4971751-18ba-42c0-933f-7e935423e3d9",
+      "Root"
+    ],
+    [
+      "c917e16d-f0ac-4e75-a6ca-53a802df9d55",
+      "MCU"
+    ],
+    [
+      "6d04b95b-928b-4f0a-aacf-bdd53dce8845",
+      "Power"
+    ],
+    [
+      "09553296-4412-4340-b738-04baff363726",
+      "Solenoid Driver"
     ]
   ],
   "text_variables": {}
