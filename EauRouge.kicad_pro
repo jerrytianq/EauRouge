@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 0.65,
-          "width": 1.56
+          "drill": 3.2,
+          "height": 3.2,
+          "width": 3.2
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -605,7 +605,19 @@
   "sheets": [
     [
       "436256f7-f1ed-4a9c-8f59-68dc2aacf5b8",
-      ""
+      "Root"
+    ],
+    [
+      "80e28466-1365-4680-b286-6c7cfdb0201d",
+      "12V3A-BUCK"
+    ],
+    [
+      "5ae5eddd-92b5-4a06-a2b6-e0f1c65e56ee",
+      "XIAO ESP32C3"
+    ],
+    [
+      "b5e0c24f-21ff-4ef7-8718-44ead6ddfda6",
+      "Solenoid Driver"
     ]
   ],
   "text_variables": {}
